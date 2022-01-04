@@ -5,9 +5,9 @@ const { Header, Content, Sider, Footer } = Layout
 const Main = () => {
 
   return (
-    <Layout>
+    <Layout >
       <Header>
-        <Menu theme="dark" mode="horizontal">
+        <Menu theme="dark" mode="horizontal" selectedKeys={[]}>
           <Menu.Item>YGX</Menu.Item>
           <Menu.Item>lACHICA</Menu.Item>
           <Menu.Item>WANT</Menu.Item>
@@ -18,15 +18,19 @@ const Main = () => {
           <Menu.Item>Hook</Menu.Item>
         </Menu>
       </Header>
-      <Layout>
+      <Layout hasSider>
         <Sider>
           Sider
         </Sider>
-        <Content>
-          Content
-        </Content>
+        <Layout>
+          <Content>
+            Content
+          </Content>
+          <Footer>
+            Footer
+          </Footer>
+        </Layout>
       </Layout>
-      <Footer>Footer</Footer>
     </Layout>
   )
 }
