@@ -9,6 +9,7 @@ let config = {
             // styles: path.join(__dirname, 'src', 'styles'),
             // assets: path.join(__dirname, 'src', 'assets'),
             components: path.join(__dirname, 'src', 'components'),
+            pages: path.join(__dirname, 'src', 'pages'),
         };
         return config;
     },
