@@ -1,12 +1,12 @@
 import Name from 'data/type/Name'
-
+import Choreo from 'data/type/Choreo'
 interface Dancer {
   name: Name
   image: string
   birth: Date
-  isLeader: boolean
+  isLeader?: boolean
   description?: string
-  choreography?: any
+  choreo: Choreo[]
 }
 
 export default Dancer
