@@ -1,10 +1,7 @@
 import Dancer from 'data/type/Dancer'
-
+import Name from 'data/type/Name'
 interface Crew {
-  name: {
-    kor: string
-    eng: string
-  }
+  name: Name
   image: string
   description?: any
   finalRank: number

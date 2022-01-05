@@ -1,5 +1,7 @@
+import Name from 'data/type/Name'
+
 interface Dancer {
-  name: string
+  name: Name
   image: string
   birth: Date
   isLeader: boolean
