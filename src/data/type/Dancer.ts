@@ -7,6 +7,7 @@ interface Dancer {
   isLeader?: boolean
   description?: string
   choreo: Choreo[]
+  link?: Link[]
 }
 
 export default Dancer
