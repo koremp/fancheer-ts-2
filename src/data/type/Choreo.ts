@@ -3,7 +3,7 @@ interface Choreo {
     name: string
     artist: string
   },
-  link: string[],
+  link: string,
 }
 
 export default Choreo
