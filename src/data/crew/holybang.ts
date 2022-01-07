@@ -50,18 +50,6 @@ const Belle: Dancer = {
   link: [],
 }
 
-const Loa: Dancer = {
-  name: {
-    kor: '로아',
-    eng: 'Lo-A',
-  },
-  image: '',
-  birth: new Date(1996, 8, 2),
-  description: '',
-  choreo: [],
-  link: [],
-}
-
 const Eevee: Dancer = {
   name: {
     kor: '이븨',
