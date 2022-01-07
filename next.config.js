@@ -10,7 +10,7 @@ let config = {
             // assets: path.join(__dirname, 'src', 'assets'),
             components: path.join(__dirname, 'src', 'components'),
             pages: path.join(__dirname, 'src', 'pages'),
-            data: path.join(__dirname, 'src', 'data'),
+            datas: path.join(__dirname, 'src', 'datas'),
         };
         return config;
     },
