@@ -1,6 +1,7 @@
-import Name from 'data/type/Name'
-import Choreo from 'data/type/Choreo'
-import Link from 'data/type/Link'
+import Name from 'datas/types/Name'
+import Choreo from 'datas/types/Choreo'
+import Link from 'datas/types/Link'
+
 interface Dancer {
   name: Name
   image: string

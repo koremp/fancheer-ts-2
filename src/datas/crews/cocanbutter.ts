@@ -1,5 +1,5 @@
-import Crew from 'data/type/Crew'
-import Dancer from 'data/type/Dancer'
+import Crew from 'datas/types/Crew'
+import Dancer from 'datas/types/Dancer'
 
 const Rihey: Dancer = {
   name: {

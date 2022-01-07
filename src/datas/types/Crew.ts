@@ -1,5 +1,6 @@
-import Dancer from 'data/type/Dancer'
-import Name from 'data/type/Name'
+import Dancer from 'datas/types/Dancer'
+import Name from 'datas/types/Name'
+
 interface Crew {
   name: Name
   image: string
