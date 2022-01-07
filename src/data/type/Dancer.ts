@@ -6,7 +6,7 @@ interface Dancer {
   image: string
   birth: Date
   isLeader?: boolean
-  description?: string
+  description: string
   choreo: Choreo[]
   link?: Link[] 
 }
