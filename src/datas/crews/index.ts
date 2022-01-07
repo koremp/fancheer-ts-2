@@ -3,7 +3,7 @@ import HOOK from 'datas/crews/hook'
 import LACHICA from 'datas/crews/lachica'
 import COCANBUTTER from 'datas/crews/cocanbutter'
 import YGX from 'datas/crews/ygx'
-import PROWDMON from 'data/crews/prowdmon'
+import PROWDMON from 'datas/crews/prowdmon'
 import WANT from 'datas/crews/want'
 import WAYB from 'datas/crews/wayb'
 
