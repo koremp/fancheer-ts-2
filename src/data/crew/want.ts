@@ -69,7 +69,7 @@ const WANT: Crew = {
   },
   image: '',
   description: '',
-  finalRank: '',
+  finalRank: 7,
   members: [
     HyojinChoi,
     Rozalin,
