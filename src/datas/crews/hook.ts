@@ -89,8 +89,8 @@ const Hyowoo: Dancer = {
 
 const HOOK: Crew = {
   name: {
-    kor: '원트',
-    eng: 'WANT',
+    kor: '훅',
+    eng: 'HOOK',
   },
   image: '',
   description: '',
