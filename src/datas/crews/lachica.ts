@@ -74,7 +74,7 @@ const Lachica: Crew = {
   image: '',
   description: '',
   finalRank: 3,
-  key: members[0].name.eng,
+  key: '',
   members: [
     Gabee,
     Rian,
@@ -83,6 +83,8 @@ const Lachica: Crew = {
     Peanut,
   ],
 }
+
+Lachica.key = Lachica.members[0].name.eng;
 
 export const LachciaMembers = {
   Gabee,

@@ -94,7 +94,7 @@ const PROWDMON: Crew = {
   image: '',
   description: '',
   finalRank: 6,
-  key: members[0].name.eng,
+  key: '',
   members: [
     Monika,
     DIA,
@@ -105,6 +105,8 @@ const PROWDMON: Crew = {
     Hyeily,
   ],
 }
+
+PROWDMON.key = PROWDMON.members[0].name.eng;
 
 export const ProwdmonMembers = {
   Monika,

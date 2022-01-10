@@ -70,7 +70,7 @@ const WANT: Crew = {
   image: '',
   description: '',
   finalRank: 7,
-  key: members[0].name.eng,
+  key: '',
   members: [
     HyojinChoi,
     Rozalin,
@@ -79,6 +79,8 @@ const WANT: Crew = {
     LeeChaeyeon,
   ],
 }
+
+WANT.key = WANT.members[0].name.eng;
 
 export const WantMembers = {
   HyojinChoi,

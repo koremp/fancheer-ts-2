@@ -86,7 +86,6 @@ const Hyowoo: Dancer = {
   link: [],
 }
 
-
 const HOOK: Crew = {
   name: {
     kor: '훅',
@@ -95,11 +94,11 @@ const HOOK: Crew = {
   image: '',
   description: '',
   finalRank: 7,
-  key: members[0].name.eng,
+  key: '',
   members: [
     Aiki,
     Rageon,
-    SeonYoonKyung,
+    SeonYoonkyung,
     SungJiyeon,
     Born,
     Odd,
@@ -107,10 +106,13 @@ const HOOK: Crew = {
   ],
 }
 
+HOOK.key = HOOK.members[0].name.eng;
+
+
 export const HOOKMembers = {
   Aiki,
   Rageon,
-  SeonYoonKyung,
+  SeonYoonkyung,
   SungJiyeon,
   Born,
   Odd,

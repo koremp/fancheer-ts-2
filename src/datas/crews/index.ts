@@ -23,7 +23,9 @@ const data: {
     WANT,
     WAYB,
   ],
-  key: crews[0].name.eng,
+  key: '',
 } 
+
+data.key = data.crews[0].name.eng
 
 export default data
