@@ -71,7 +71,7 @@ const WAYB: Crew = {
   description: '',
   finalRank: 8,
   key: '',
-  members: [
+  dancers: [
     Noze,
     GyuriAn,
     Dolla,
@@ -80,7 +80,7 @@ const WAYB: Crew = {
   ],
 }
 
-WAYB.key = WAYB.members[0].name.eng;
+WAYB.key = WAYB.dancers[0].name.eng;
 
 export const WaybMembers = {
   Noze,
