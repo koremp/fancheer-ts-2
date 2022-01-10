@@ -79,7 +79,7 @@ const YGX: Crew = {
   description: '',
   finalRank: 5,
   key: '',
-  members: [
+  dancers: [
     Leejung,
     Yeojin,
     Yell,
@@ -88,7 +88,7 @@ const YGX: Crew = {
   ],
 }
 
-YGX.key = YGX.members[0].name.eng;
+YGX.key = YGX.dancers[0].name.eng;
 
 export const YGXMember = {
   Leejung,

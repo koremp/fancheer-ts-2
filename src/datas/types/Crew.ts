@@ -7,7 +7,7 @@ interface Crew {
   description?: any
   finalRank: number
   index: number
-  members: Dancer[]
+  dancers: Dancer[]
 }
 
 export default Crew

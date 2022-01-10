@@ -95,7 +95,7 @@ const PROWDMON: Crew = {
   description: '',
   finalRank: 6,
   key: '',
-  members: [
+  dancers: [
     Monika,
     DIA,
     Rosy,
@@ -106,7 +106,7 @@ const PROWDMON: Crew = {
   ],
 }
 
-PROWDMON.key = PROWDMON.members[0].name.eng;
+PROWDMON.key = PROWDMON.dancers[0].name.eng;
 
 export const ProwdmonMembers = {
   Monika,

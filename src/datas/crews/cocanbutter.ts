@@ -71,7 +71,7 @@ const COCANBUTTER: Crew = {
   description: '',
   finalRank: 4,
   key: '',
-  members: [
+  dancers: [
     Rihey,
     Gaga,
     Bicki,
@@ -80,7 +80,7 @@ const COCANBUTTER: Crew = {
   ],
 }
 
-COCANBUTTER.key = COCANBUTTER.members[0].name.eng;
+COCANBUTTER.key = COCANBUTTER.dancers[0].name.eng;
 
 export const CocaNButterMembers = {
   Rihey,

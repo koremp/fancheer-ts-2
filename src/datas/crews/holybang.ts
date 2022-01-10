@@ -107,7 +107,7 @@ const HolyBang: Crew = {
   description: '',
   finalRank: 1,
   key: '',
-  members: [
+  dancers: [
     HoneyJ,
     Loa,
     Mull,
@@ -119,7 +119,7 @@ const HolyBang: Crew = {
   ],
 }
 
-HolyBang.key = HolyBang.members[0].name.eng;
+HolyBang.key = HolyBang.dancers[0].name.eng;
 
 export const HolyBangMembers = {
   HoneyJ,

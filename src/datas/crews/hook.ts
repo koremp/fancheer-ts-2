@@ -95,7 +95,7 @@ const HOOK: Crew = {
   description: '',
   finalRank: 7,
   key: '',
-  members: [
+  dancers: [
     Aiki,
     Rageon,
     SeonYoonkyung,
@@ -106,7 +106,7 @@ const HOOK: Crew = {
   ],
 }
 
-HOOK.key = HOOK.members[0].name.eng;
+HOOK.key = HOOK.dancers[0].name.eng;
 
 
 export const HOOKMembers = {
