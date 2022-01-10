@@ -97,12 +97,24 @@ const HOOK: Crew = {
   finalRank: 7,
   key: members[0].name.eng,
   members: [
-    
+    Aiki,
+    Rageon,
+    SeonYoonKyung,
+    SungJiyeon,
+    Born,
+    Odd,
+    Hyowoo,
   ],
 }
 
 export const HOOKMembers = {
-  
+  Aiki,
+  Rageon,
+  SeonYoonKyung,
+  SungJiyeon,
+  Born,
+  Odd,
+  Hyowoo, 
 }
 
 export default HOOK
