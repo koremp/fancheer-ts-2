@@ -11,7 +11,7 @@ import CREW from 'datas/types/Crew'
 
 const data: {
   crews: CREW[],
-  index: number,
+  key: number,
 } = {
   crews: [
     HolyBang,
@@ -23,7 +23,7 @@ const data: {
     WANT,
     WAYB,
   ],
-  index: 0,
+  key: crews[0].name.eng,
 } 
 
 export default data

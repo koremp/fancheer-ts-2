@@ -70,7 +70,7 @@ const COCANBUTTER: Crew = {
   image: '',
   description: '',
   finalRank: 4,
-  index: 0,
+  key: members[0].name.eng,
   members: [
     Rihey,
     Gaga,

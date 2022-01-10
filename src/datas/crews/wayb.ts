@@ -70,7 +70,7 @@ const WAYB: Crew = {
   image: '',
   description: '',
   finalRank: 8,
-  index: 0,
+  key: members[0].name.eng,
   members: [
     Noze,
     GyuriAn,

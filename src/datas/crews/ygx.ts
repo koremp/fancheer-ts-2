@@ -78,7 +78,7 @@ const YGX: Crew = {
   image: '',
   description: '',
   finalRank: 5,
-  index: 0,
+  key: members[0].name.eng,
   members: [
     Leejung,
     Yeojin,

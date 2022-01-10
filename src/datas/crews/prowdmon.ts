@@ -94,7 +94,7 @@ const PROWDMON: Crew = {
   image: '',
   description: '',
   finalRank: 6,
-  index: 0,
+  key: members[0].name.eng,
   members: [
     Monika,
     DIA,

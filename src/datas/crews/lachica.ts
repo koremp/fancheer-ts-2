@@ -74,7 +74,7 @@ const Lachica: Crew = {
   image: '',
   description: '',
   finalRank: 3,
-  index: 0,
+  key: members[0].name.eng,
   members: [
     Gabee,
     Rian,
