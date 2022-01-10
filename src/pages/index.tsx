@@ -1,19 +1,37 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Layout, Menu } from 'antd'
-import crewData from 'datas/crews'
+import produce from 'immer';
+
+import data from 'datas/crews'
 import CREW from 'datas/types/Crew'
 
 const { Header, Content, Sider, Footer } = Layout
 
 const Main = () => {
-  const [selectedCrew, setSelectedCrew] = useState<CREW>(crewData[0])
+  const [crew, setCrew] = useState<CREW>(data.crews.find((crew) => crew.name.eng === data.key))
+  const [crewKey, setCrewKey] = useState<string>(data.key)
+
+  const onClickCrew = (e) => {
+    setCrewKey(e.key)
+    console.log(crewKey, e.key)
+  }
+  
+  useEffect(() => {
+    setCrew(data.crews.find((crew) => crew.name.eng === crewKey))
+  }, [crewKey])
+
+  const onClickMember = (e) => {
+    // setCrew(produce(crew, draft => {
+    //   draft[draft.key].index = e.key
+    // }))
+  }
 
   return (
     <Layout >
       <Header>
-        <Menu theme="dark" mode="horizontal" selectedKeys={[selectedCrew.name.eng]}>
+        <Menu theme="dark" mode="horizontal" onClick={onClickCrew}>
           {
-            crewData.map((crew) => (
+            data.crews.map((crew, index) => (
               <Menu.Item key={crew.name.eng}>{crew.name.eng}</Menu.Item>
             ))
           }
@@ -21,7 +39,13 @@ const Main = () => {
       </Header>
       <Layout hasSider>
         <Sider>
-          Sider
+          <Menu mode="inline" >
+            {
+              crew.members.map((member) => (
+                <Menu.Item key={member.name.eng}>{member.name.eng}</Menu.Item>
+              ))
+            }
+          </Menu>
         </Sider>
         <Layout>
           <Content>
