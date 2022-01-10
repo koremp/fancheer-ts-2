@@ -11,7 +11,7 @@ import CREW from 'datas/types/Crew'
 
 const data: {
   crews: CREW[],
-  key: number,
+  key: string,
 } = {
   crews: [
     HolyBang,
