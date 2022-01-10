@@ -9,15 +9,21 @@ import WAYB from 'datas/crews/wayb'
 
 import CREW from 'datas/types/Crew'
 
-const crewData: CREW[] = [
-  HolyBang, 
-  HOOK,
-  LACHICA,
-  COCANBUTTER,
-  YGX,
-  PROWDMON,
-  WANT,
-  WAYB,
-]
+const data: {
+  crews: CREW[],
+  index: number,
+} = {
+  crews: [
+    HolyBang,
+    HOOK,
+    LACHICA,
+    COCANBUTTER,
+    YGX,
+    PROWDMON,
+    WANT,
+    WAYB,
+  ],
+  index: 0,
+} 
 
-export default crewData
+export default data

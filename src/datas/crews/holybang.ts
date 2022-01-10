@@ -106,6 +106,7 @@ const HolyBang: Crew = {
   image: '',
   description: '',
   finalRank: 1,
+  index: 0,
   members: [
     HoneyJ,
     Loa,

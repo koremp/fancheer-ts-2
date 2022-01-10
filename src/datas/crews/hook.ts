@@ -95,6 +95,7 @@ const HOOK: Crew = {
   image: '',
   description: '',
   finalRank: 7,
+  index: 0,
   members: [
     
   ],

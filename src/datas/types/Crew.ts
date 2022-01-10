@@ -6,7 +6,7 @@ interface Crew {
   image: string
   description?: any
   finalRank: number
-  selectedMember: number
+  index: number
   members: Dancer[]
 }
 
