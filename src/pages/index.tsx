@@ -35,7 +35,7 @@ const Main = () => {
   return (
     <Layout >
       <Header>
-        <Menu theme="dark" mode="horizontal" onClick={onClickCrew}>
+        <Menu theme="dark" mode="horizontal" onClick={onClickCrew} selectedKeys={[crewKey]}>
           {
             data.crews.map((crew) => (
               <Menu.Item key={crew.name.eng}>{crew.name.eng}</Menu.Item>
@@ -44,7 +44,7 @@ const Main = () => {
         </Menu>
       </Header>
       <Layout hasSider>
-        <Sider>
+        <Sider style={{ background: "#fff"}}>
           <Menu mode="inline" onClick={onClickDancer} selectedKeys={[crew.key]}>
             {
               crew.dancers.map((dancer) => (
@@ -53,14 +53,14 @@ const Main = () => {
             }
           </Menu>
         </Sider>
-        <Layout>
-          <Content>
+        <Layout style={{ padding: '24px' }}>
+          <Content style={{ padding: 24, margin: 0, background: "#fff"}}>
             {dancer.name.eng}
             {dancer.name.kor}
+            {dancer.birth.toString()}
+            {dancer.isLeader ? '리더' : ''}
+            {dancer.description}
           </Content>
-          <Footer>
-            Footer
-          </Footer>
         </Layout>
       </Layout>
     </Layout>
