@@ -11,7 +11,12 @@ const Monika: Dancer = {
   isLeader: true,
   description: `Known as the "Teacher of all Dancers" as she was the Dance Professor for most of the contestants during their college years. Choreographer for Amoeba Culture. Member of WooFam. One half of the dance duo MOLIP with fellow PRODWMON member Lip J.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/monika_shin/',
+    'https://twitter.com/monikaaashin',
+    'https://www.facebook.com/Monika.MoLip',
+    'https://www.youtube.com/c/OFDStudio',
+  ],
 }
 
 const DIA: Dancer = {
@@ -23,7 +28,10 @@ const DIA: Dancer = {
   birth: new Date(1996, 10, 28),
   description: `Choreographer at OFD Studio`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/_dia_kim_',
+    'https://twitter.com/_dia_kim_/',
+  ],
 }
 
 const Rosy: Dancer = {
@@ -35,7 +43,10 @@ const Rosy: Dancer = {
   birth: new Date(1999, 8, 12),
   description: `Choreographer at OFD Studio. Former YG Entertainment trainee.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/_rosy_life',
+    'https://twitter.com/_rosygirl',
+  ],
 }
 
 const LipJ: Dancer = {
@@ -47,7 +58,10 @@ const LipJ: Dancer = {
   birth: new Date(1988, 7, 29),
   description: `World-renowned Waacking dancer. Choreographer for Amoeba Culture, Yubin, and Lee Hi. Member of dance duo MOLIP (with PRODWMON member Monika), ElizaBitch, and Team W.O.W. (World Of Waackers).`,
   choreo: [],
-  link: [],
+  link: [
+    'https://twitter.com/lipj88',
+    'https://www.instagram.com/lipjmolip/',
+  ],
 }
 
 const Kayday: Dancer = {
@@ -59,7 +73,10 @@ const Kayday: Dancer = {
   birth: new Date(1999, 10, 0),
   description: `Choreographer at OFD Studio.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/kayda.y',
+    'https://twitter.com/dazyofkayday/',
+  ],
 }
 
 const HamG: Dancer = {
@@ -71,7 +88,9 @@ const HamG: Dancer = {
   birth: new Date(1995, 12, 4),
   description: `Choreographer at OFD Studio.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/ham_ggg',
+  ],
 }
 
 const Hyeily: Dancer = {
@@ -83,7 +102,9 @@ const Hyeily: Dancer = {
   birth: new Date(1999, 5, 4),
   description: `Choreographer at OFD Studio.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/hyeily.___',
+  ],
 }
 
 const PROWDMON: Crew = {
