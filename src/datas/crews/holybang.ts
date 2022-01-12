@@ -11,7 +11,12 @@ const HoneyJ: Dancer = {
   isLeader: true,
   description: `Former leader of PURFLOW dance crew alongside current CoCaNButter members Rihey, Gaga, Jillin, ZSun, and Bicki. Long-time choreographer and tour dancer for Jay Park and AOMG.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/__honey.j__/',
+    'https://www.youtube.com/user/PuplowHn',
+    'https://twitter.com/__honey_j__',
+    'https://www.tiktok.com/@playwithhoney',
+  ],
 }
 
 const Loa: Dancer = {
@@ -23,7 +28,10 @@ const Loa: Dancer = {
   birth: new Date(1996, 8, 2),
   description: '',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/_lo_aaa_/',
+    'https://twitter.com/_lo_aaa_',
+  ],
 }
 
 const Mull: Dancer = {
@@ -35,7 +43,10 @@ const Mull: Dancer = {
   birth: new Date(1996, 2, 27),
   description: '',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/mull_holybang/',
+    'https://twitter.com/mull_holybang',
+  ],
 }
 
 const Belle: Dancer = {
@@ -47,7 +58,10 @@ const Belle: Dancer = {
   birth: new Date(1996, 10, 8),
   description: `Missed the remainder of the show effective Episode 5 due to an ACL injury and underwent surgery.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/gaeun_belle/',
+    'https://twitter.com/gabbung123',
+  ],
 }
 
 const Eevee: Dancer = {
@@ -59,7 +73,10 @@ const Eevee: Dancer = {
   birth: new Date(1993, 3, 9),
   description: 'Tour dancer for Jay Park and AOMG.',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/ee__vee/',
+    'https://twitter.com/EEVEEHOLYBANG',
+  ],
 }
 
 const Jane: Dancer = {
@@ -71,7 +88,10 @@ const Jane: Dancer = {
   birth: new Date(1995, 1, 4),
   description: 'Tour dancer for Jay Park and AOMG.',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/janefromhb/',
+    'https://twitter.com/janefromhb',
+  ],
 }
 
 const Taro: Dancer = {
@@ -83,7 +103,10 @@ const Taro: Dancer = {
   birth: new Date(1994, 4, 0),
   description: '',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/_t.a.r.o_/',
+    'https://twitter.com/taro_holybang',
+  ],
 }
 
 const Hertz: Dancer = {
@@ -95,7 +118,10 @@ const Hertz: Dancer = {
   birth: new Date(1992, 10, 19),
   description: '',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/blossomy_hertz/',
+    'https://twitter.com/Blossomy_Hertz/',
+  ],
 }
 
 const HolyBang: Crew = {
