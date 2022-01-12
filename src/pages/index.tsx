@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
-import { Layout, Menu } from 'antd'
-import produce from 'immer';
+import { Descriptions, Layout, Menu, Image } from 'antd'
+import produce from 'immer'
+import moment from 'moment'
 
 import data from 'datas/crews'
 import Crew from 'datas/types/Crew'
@@ -18,6 +19,7 @@ const Main = () => {
     setCrewKey(e.key)
     console.log(crewKey, e.key)
   }
+
   const onClickDancer = (e) => {
     setCrew(produce(crew, draft => {
       draft.key = e.key
@@ -54,12 +56,13 @@ const Main = () => {
           </Menu>
         </Sider>
         <Layout style={{ padding: '24px' }}>
-          <Content style={{ padding: 24, margin: 0, background: "#fff"}}>
-            {dancer.name.eng}
-            {dancer.name.kor}
-            {dancer.birth.toString()}
-            {dancer.isLeader ? '리더' : ''}
-            {dancer.description}
+          <Content style={{ display: 'flex', flexDirection: 'column', padding: 24, margin: 0, background: "#fff"}}>
+            <Descriptions title="Dancer Info" style={{ margin: 'auto 0 0' }}>
+              <Descriptions.Item label="Dancer Name (kor/eng)">{dancer.name.kor} / {dancer.name.eng}</Descriptions.Item>
+              <Descriptions.Item label="Leader">{dancer.isLeader ? '리더' : '-'}</Descriptions.Item>
+              <Descriptions.Item label="Age">{moment(dancer.birth).format('YYYY-MM-DD')} / {moment().diff(dancer.birth.toString(), 'years')}</Descriptions.Item>
+              <Descriptions.Item label="Descriptions">{dancer.description}</Descriptions.Item>
+            </Descriptions>
           </Content>
         </Layout>
       </Layout>
