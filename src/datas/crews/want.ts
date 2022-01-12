@@ -11,7 +11,10 @@ const HyojinChoi: Dancer = {
   isLeader: true,
   description: 'Choreographer at 1Million Dance Studio',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/hyojin__choi__/',
+    'https://www.youtube.com/channel/UCSr3ldPbpz7w2iKctmJ972A',
+  ],
 }
 
 const Rozalin: Dancer = {
@@ -23,7 +26,11 @@ const Rozalin: Dancer = {
   birth: new Date(1997, 9, 14),
   description: 'Choreographer for aespa, Weeekly',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/Rozallllll/',
+    'https://twitter.com/Rozalllllll',
+    'https://www.youtube.com/channel/UCqUZcFvVwmrzvDTEFCrJ49A',
+  ],
 }
 
 const Moana: Dancer = {
@@ -35,10 +42,12 @@ const Moana: Dancer = {
   birth: new Date(1995, 6, 24),
   description: `Choreographer for KARD's "Gunshot" (with Emma)`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/_k.moana/',
+  ],
 }
 
-const Emma : Dancer = {
+const Emma: Dancer = {
   name: {
     kor: '엠마',
     eng: 'Emma',
@@ -47,7 +56,11 @@ const Emma : Dancer = {
   birth: new Date(2000, 4, 25),
   description: `Choreographer for KARD's "Gunshot" (with Moana)`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/eemmasong/',
+    'https://twitter.com/Eemmas0ng',
+    'https://www.tiktok.com/@emmasonggg?',
+  ],
 }
 
 const LeeChaeyeon: Dancer = {
@@ -59,7 +72,10 @@ const LeeChaeyeon: Dancer = {
   birth: new Date(2000, 1, 10),
   description: `Former IZ*ONE member and current solo artist under WM Entertainment.\nOlder sister of current ITZY member Chaeryeong.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/chaestival_/',
+    'https://twitter.com/official_LCY',
+  ],
 }
 
 const WANT: Crew = {
