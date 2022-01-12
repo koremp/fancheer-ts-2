@@ -22,10 +22,10 @@ const Leejung: Dancer = {
     kor: '리정',
     eng: 'Leejung Lee',
   },
-  image: 'Choreographer for TWICE, ITZY, Sunmi, Somi, BLACKPINK, iKON',
+  image: '',
   birth: new Date(1998, 8, 8),
   isLeader: true,
-  description: '',
+  description: 'Choreographer for TWICE, ITZY, Sunmi, Somi, BLACKPINK, iKON',
   choreo: [
     // TBD
   ],
