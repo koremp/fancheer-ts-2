@@ -13,7 +13,10 @@ const Yell: Dancer = {
     // TBD
   ],
   link: [
-    // TBD
+    'https://www.youtube.com/channel/UCy8ruIOEo43yAXi61anYC_w',
+    'https://www.instagram.com/yell_yeri_kim/',
+    'https://www.tiktok.com/@yellyerikim?',
+    'https://www.facebook.com/yerikim.aka.yell',
   ]
 }
 
@@ -30,7 +33,9 @@ const Leejung: Dancer = {
     // TBD
   ],
   link: [
-    // TBD
+    'https://www.instagram.com/leejung_lee/',
+    'https://twitter.com/leejunglovesyou',
+    'https://www.tiktok.com/@leejunglovesyou?_d=secCgwIARCbDRjEFSADKAESPgo85E6Bb4MV0HC7F3s17Dcmb0IBfYzycHzLCuj8sEWVGrVx48oXt96n8OEPCyXySMsVU53fwustY4%2B9CRAQGgA%3D&language=ko&sec_uid=MS4wLjABAAAAiavNKHJv-aQiPB6tXuVywiEhnLO0rPmgrA7zFfQwgKer1MNqQeUEUfKrMA9EOJ3l&sec_user_id=MS4wLjABAAAAxc-CzMFhNrg6Bg03aHoNM_LdzQLuLGXjtK1MPDXk-bb0TxIcyYH7tMsy04Mc0SPl&share_app_id=1180&share_author_id=7025973455875933185&share_link_id=23c3b1bd-9607-4ab4-94c3-c41bb2ad77ba&timestamp=1635901264&u_code=d2lf49bda1ki3a&user_id=6616940305474469890&utm_campaign=client_share&utm_medium=android&utm_source=kakaotalk&source=h5_t&_r=1',
   ]
 }
 
@@ -43,7 +48,10 @@ const Yeojin: Dancer = {
   birth: new Date(1994, 10, 8),
   description: '',
   choreo: [],
-  link: []
+  link: [
+    'https://www.instagram.com/yeojin1009/',
+    'https://www.youtube.com/channel/UCoU7FNPcimmsjDhuFfVakAQ',
+  ]
 }
 
 const Isak: Dancer = {
@@ -67,7 +75,11 @@ const Jihyo: Dancer = {
   birth: new Date(1996, 10, 21),
   description: '',
   choreo: [],
-  link: []
+  link: [
+    'https://www.instagram.com/issa_jihyo/',
+    'https://www.youtube.com/channel/UCjRoBs0Yni_KO7emfyerbGQ',
+    'https://twitter.com/issa_jihyo',
+  ]
 }
 
 const YGX: Crew = {
