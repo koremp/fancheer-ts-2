@@ -11,7 +11,11 @@ const Noze: Dancer = {
   isLeader: true,
   description: `Dancer for Kai's "Mmmh", Taemin's "Advice"`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/nozeworld/',
+    'https://twitter.com/noze_world',
+    'https://gall.dcinside.com/mgallery/board/lists?id=noze',
+  ],
 }
 
 const GyuriAn: Dancer = {
@@ -23,7 +27,10 @@ const GyuriAn: Dancer = {
   birth: new Date(2002, 1, 5),
   description: '',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/gyuriannn/',
+    'https://twitter.com/gyuriannn/',
+  ],
 }
 
 const Dolla: Dancer = {
@@ -35,7 +42,9 @@ const Dolla: Dancer = {
   birth: new Date(1996, 1, 14),
   description: '',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/dolla_WayB/',
+  ],
 }
 
 const LeeSu: Dancer = {
@@ -47,7 +56,9 @@ const LeeSu: Dancer = {
   birth: new Date(2000, 7, 0),
   description: `Dancer for Kai's "Mmmh" (with Noze), and The Boyz`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/withleesu/',
+  ],
 }
 
 const Ansso: Dancer = {
@@ -59,7 +70,9 @@ const Ansso: Dancer = {
   birth: new Date(1997, 8, 0),
   description: '',
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/ansso_wayb/',
+  ],
 }
 
 const WAYB: Crew = {
