@@ -11,7 +11,10 @@ const Rihey: Dancer = {
   isLeader: true,
   description: `Former member of PURPLOW Dance crew which members includes its former leader and now. Holy Bang leader Honey J, and current CocaNButter members Gaga, Bicki, Zsun, and Jillin. Choreographer at Bangall Dance Academy`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/rihey__/',
+    'https://twitter.com/Rihey__',
+  ],
 }
 
 const Gaga: Dancer = {
@@ -23,7 +26,10 @@ const Gaga: Dancer = {
   birth: new Date(1993, 7, 3),
   description: `Former member of PURPLOW Dance crew. Choreographer at Bangall Dance Academy`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/_gagaloca/',
+    'https://mobile.twitter.com/_gagaloca',
+  ],
 }
 
 const Bicki: Dancer = {
@@ -35,7 +41,10 @@ const Bicki: Dancer = {
   birth: new Date(1994, 3, 19),
   description: `Former member of PURPLOW Dance crew.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/justasbicki',
+    'https://twitter.com/justasbicki',
+  ],
 }
 
 const ZSun: Dancer = {
@@ -47,7 +56,11 @@ const ZSun: Dancer = {
   birth: new Date(1990, 3, 28),
   description: `Former member of PURPLOW Dance crew.\nChoreographer for KARD. Former Dancehall singer previously signed under Luminant Entertainment.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/zsunbless',
+    'https://mobile.twitter.com/zsunbless',
+    'https://www.youtube.com/channel/UCaAwiz2aP0JqDJ_izMXL7_w',
+  ],
 }
 
 const Jillin: Dancer = {
@@ -59,7 +72,11 @@ const Jillin: Dancer = {
   birth: new Date(1994, 8, 15),
   description: `Former member of PURPLOW Dance crew.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/jillin.ee/',
+    'https://mobile.twitter.com/jillin_ee',
+    'https://www.youtube.com/channel/UC1voe3dddNahNGdPUUU4W_g',
+  ],
 }
 
 const COCANBUTTER: Crew = {
