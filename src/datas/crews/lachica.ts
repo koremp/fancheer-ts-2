@@ -11,7 +11,11 @@ const Gabee: Dancer = {
   isLeader: true,
   description: `Choreographer (with Rian and Simeez) for BoA, Yubin, Chungha, CLC, TWICE, Natty.\nFormerly known as "Single Lady" during her underground dance battle days.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/gabeegal/',
+    'https://twitter.com/gabeegal',
+    'https://www.youtube.com/c/DanceJiwon',
+  ],
 }
 
 
@@ -24,7 +28,12 @@ const Rian: Dancer = {
   birth: new Date(1993, 9, 10),
   description: `Choreographer for Chungha, Hyoyeon, Weki Meki`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/_rianess/',
+    'https://twitter.com/rian_eda',
+    'https://www.tiktok.com/@dancerian',
+    'https://www.youtube.com/channel/UCFH9VTXreljLA4KHejcVmVg',
+  ],
 }
 
 
@@ -37,7 +46,12 @@ const Simeez: Dancer = {
   birth: new Date(1996, 4, 3),
   description: `Choreographer for KARD, April, Rocket Girls 101`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/_simeez/',
+    'https://twitter.com/__simeez/',
+    'https://www.youtube.com/c/Simeezdancer',
+    'https://www.facebook.com/simeez'
+  ],
 }
 
 
@@ -50,7 +64,10 @@ const H1: Dancer = {
   birth: new Date(1994, 10, 28),
   description: `Choreographer and back-up dancer for Hwasa`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/h__1won/',
+    'https://www.youtube.com/channel/UCQGsGmvT-SPdHZz7_bDef0w',
+  ],
 }
 
 
@@ -63,7 +80,10 @@ const Peanut: Dancer = {
   birth: new Date(1990, 5, 6),
   description: `Professional Waacker`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/__peanutgirl/',
+    'https://twitter.com/__peanutgirl/',
+  ],
 }
 
 const Lachica: Crew = {
