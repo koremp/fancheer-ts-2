@@ -11,7 +11,11 @@ const Aiki: Dancer = {
   isLeader: true,
   description: `World of Dance Contestant, Choreographer of Refund Sisters' "Don't Touch Me", Bibi, and Queen Wassabii.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/aiki_kr/',
+    'https://www.tiktok.com/@aiki_kr',
+    'https://www.youtube.com/c/Aiki%EC%95%84%EC%9D%B4%ED%82%A4%EB%A6%BF',
+  ],
 }
 
 const Rageon: Dancer = {
@@ -23,7 +27,9 @@ const Rageon: Dancer = {
   birth: new Date(1999, 5, 21),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/rageonlegend/',
+  ],
 }
 
 const SeonYoonkyung: Dancer = {
@@ -35,7 +41,10 @@ const SeonYoonkyung: Dancer = {
   birth: new Date(2003, 10, 21),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/seon.yk_',
+    'https://twitter.com/seon_yk_/',
+  ],
 }
 
 const SungJiyeon: Dancer = {
@@ -47,10 +56,13 @@ const SungJiyeon: Dancer = {
   birth: new Date(2003, 1, 26),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/jiyeon127and/',
+    'https://twitter.com/jiyeon127and/',
+  ],
 }
 
-const Born : Dancer = {
+const Born: Dancer = {
   name: {
     kor: '예본',
     eng: 'Born',
@@ -59,7 +71,9 @@ const Born : Dancer = {
   birth: new Date(2000, 2, 23),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/yebonnana/',
+  ],
 }
 
 const Odd: Dancer = {
@@ -71,7 +85,9 @@ const Odd: Dancer = {
   birth: new Date(1999, 10, 2),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://instagram.com/moonlight_odd_/',
+  ],
 }
 
 const Hyowoo: Dancer = {
@@ -83,7 +99,9 @@ const Hyowoo: Dancer = {
   birth: new Date(2000, 10, 10),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
-  link: [],
+  link: [
+    'https://www.instagram.com/hyowoo.__/',
+  ],
 }
 
 const HOOK: Crew = {
@@ -116,7 +134,7 @@ export const HOOKMembers = {
   SungJiyeon,
   Born,
   Odd,
-  Hyowoo, 
+  Hyowoo,
 }
 
 export default HOOK
