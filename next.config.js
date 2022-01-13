@@ -1,5 +1,5 @@
 const path = require('path')
-const withImages = require('next-images')
+
 
 let config = {
     webpack: (config) => {
@@ -14,7 +14,9 @@ let config = {
             datas: path.join(__dirname, 'src', 'datas'),
         };
         return config;
-    }
+    },
 }
 
-module.exports = withImages(config)
+
+
+module.exports = config
