@@ -63,7 +63,7 @@ const LipJ: Dancer = {
     kor: '립제이',
     eng: 'Lip J',
   },
-  image: lipJ,
+  image: lipjImg,
   birth: new Date(1988, 7, 29),
   description: `World-renowned Waacking dancer. Choreographer for Amoeba Culture, Yubin, and Lee Hi. Member of dance duo MOLIP (with PRODWMON member Monika), ElizaBitch, and Team W.O.W. (World Of Waackers).`,
   choreo: [],

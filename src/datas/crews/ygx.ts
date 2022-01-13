@@ -4,7 +4,7 @@ import Dancer from 'datas/types/Dancer'
 import leejungImg from 'assets/crew/ygx/YGX_LEEJUNG_MAIN.jpg'
 import yeojinImg from 'assets/crew/ygx/YGX_YEOJIN_MAIN.jpg'
 import yellImg from 'assets/crew/ygx/YGX_YELL_MAIN.jpg'
-import isakImg from 'assets/crew/ygx/YGX_ISAK_MAIN.jpg'
+import isakImg from 'assets/crew/ygx/YGX_ISAK_MAIN.png'
 import jihyoImg from 'assets/crew/ygx/YGX_JIHYO_MAIN.jpg'
 
 import logoImg from 'assets/crew/ygx/YGX.jpg'

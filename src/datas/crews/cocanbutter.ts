@@ -6,8 +6,8 @@ import gagaImg from 'assets/crew/cocanbutter/CocaNButter_GAGA_MAIN.jpg'
 import bickiImg from 'assets/crew/cocanbutter/CocaNButter_BICKI_MAIN.jpg'
 import zsunImg from 'assets/crew/cocanbutter/CocaNButter_ZSUN_MAIN.jpg'
 import jillinImg from 'assets/crew/cocanbutter/CocaNButter_JILLIN_MAIN.jpg'
-import logo from 'assets/crew/cocanbutter/CocaNButter.jpg'
 
+import logoImg from 'assets/crew/cocanbutter/CocaNButter.jpg'
 
 const Rihey: Dancer = {
   name: {
@@ -92,7 +92,7 @@ const COCANBUTTER: Crew = {
     kor: '코카엔버터',
     eng: 'CocaNButter',
   },
-  image: logo,
+  image: logoImg,
   description: '',
   finalRank: 4,
   key: '',
