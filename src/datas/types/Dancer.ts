@@ -4,7 +4,7 @@ import Link from 'datas/types/Link'
 
 interface Dancer {
   name: Name
-  image: string
+  image: string | string[]
   birth: Date
   isLeader?: boolean
   description: string
