@@ -1,12 +1,22 @@
 import Crew from 'datas/types/Crew'
 import Dancer from 'datas/types/Dancer'
 
+import aikiImg from 'assets/crew/hook/HOOK_AIKI_MAIN.jpg'
+import bornImg from 'assets/crew/hook/HOOK_BORN_MAIN.jpg'
+import hyowooImg from 'assets/crew/hook/HOOK_HYOWOO_MAIN.jpg'
+import oddImg from 'assets/crew/hook/HOOK_ODD_MAIN.jpg'
+import rageonImg from 'assets/crew/hook/HOOK_RAGEON_MAIN.jpg'
+import sungjiyeonImg from 'assets/crew/hook/HOOK_SUNGJIYEON_MAIN.jpg'
+import seonyoonkyungImg from 'assets/crew/hook/HOOK_SEONYOONKYUNG_MAIN.jpg'
+
+import logoImg from 'assets/crew/hook/HOOK.jpg'
+
 const Aiki: Dancer = {
   name: {
     kor: '아이키',
     eng: 'Aiki',
   },
-  image: '',
+  image: aikiImg,
   birth: new Date(1989, 9, 6),
   isLeader: true,
   description: `World of Dance Contestant, Choreographer of Refund Sisters' "Don't Touch Me", Bibi, and Queen Wassabii.`,
@@ -23,7 +33,7 @@ const Rageon: Dancer = {
     kor: '뤠이젼',
     eng: 'Rageon',
   },
-  image: '',
+  image: rageonImg,
   birth: new Date(1999, 5, 21),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
@@ -37,7 +47,7 @@ const SeonYoonkyung: Dancer = {
     kor: '선윤경',
     eng: 'Seon Yoonkyung',
   },
-  image: '',
+  image: seonyoonkyungImg,
   birth: new Date(2003, 10, 21),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
@@ -52,7 +62,7 @@ const SungJiyeon: Dancer = {
     kor: '성지연',
     eng: 'Sung Jiyeon',
   },
-  image: '',
+  image: sungjiyeonImg,
   birth: new Date(2003, 1, 26),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
@@ -67,7 +77,7 @@ const Born: Dancer = {
     kor: '예본',
     eng: 'Born',
   },
-  image: '',
+  image: bornImg,
   birth: new Date(2000, 2, 23),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
@@ -81,7 +91,7 @@ const Odd: Dancer = {
     kor: '오드',
     eng: 'Odd',
   },
-  image: '',
+  image: oddImg,
   birth: new Date(1999, 10, 2),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
@@ -95,7 +105,7 @@ const Hyowoo: Dancer = {
     kor: '효우',
     eng: 'Hyowoo',
   },
-  image: '',
+  image: hyowooImg,
   birth: new Date(2000, 10, 10),
   description: `Student at Aiki's Real Beat Studio.`,
   choreo: [],
@@ -109,7 +119,7 @@ const HOOK: Crew = {
     kor: '훅',
     eng: 'HOOK',
   },
-  image: '',
+  image: logoImg,
   description: '',
   finalRank: 7,
   key: '',
