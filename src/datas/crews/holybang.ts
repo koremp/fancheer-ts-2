@@ -1,12 +1,23 @@
 import Crew from 'datas/types/Crew'
 import Dancer from 'datas/types/Dancer'
 
+import honeyjImg from 'assets/crew/holybang/HolyBang_HONEYJ_MAIN.jpg'
+import loaImg from 'assets/crew/holybang/HolyBang_LOA_MAIN.jpg'
+import mullImg from 'assets/crew/holybang/HolyBang_MULL_MAIN.jpg'
+import belleImg from 'assets/crew/holybang/HolyBang_BELLE_MAIN.jpg'
+import eeveeImg from 'assets/crew/holybang/HolyBang_EEVEE_MAIN.jpg'
+import janeImg from 'assets/crew/holybang/HolyBang_JANE_MAIN.jpg'
+import taroImg from 'assets/crew/holybang/HolyBang_TARO_MAIN.jpg'
+import hertzImg from 'assets/crew/holybang/HolyBang_HERTZ_MAIN.jpg'
+
+import logoImg from 'assets/crew/holybang/HolyBang.jpg'
+
 const HoneyJ: Dancer = {
   name: {
     kor: '허니제이',
     eng: 'Honey J',
   },
-  image: '',
+  image: honeyjImg,
   birth: new Date(1987, 8, 25),
   isLeader: true,
   description: `Former leader of PURFLOW dance crew alongside current CoCaNButter members Rihey, Gaga, Jillin, ZSun, and Bicki. Long-time choreographer and tour dancer for Jay Park and AOMG.`,
@@ -24,7 +35,7 @@ const Loa: Dancer = {
     kor: '로아',
     eng: 'Lo-A',
   },
-  image: '',
+  image: loaImg,
   birth: new Date(1996, 8, 2),
   description: '',
   choreo: [],
@@ -39,7 +50,7 @@ const Mull: Dancer = {
     kor: '뮬',
     eng: 'Mull',
   },
-  image: '',
+  image: mullImg,
   birth: new Date(1996, 2, 27),
   description: '',
   choreo: [],
@@ -54,7 +65,7 @@ const Belle: Dancer = {
     kor: '벨',
     eng: 'Belle',
   },
-  image: '',
+  image: belleImg,
   birth: new Date(1996, 10, 8),
   description: `Missed the remainder of the show effective Episode 5 due to an ACL injury and underwent surgery.`,
   choreo: [],
@@ -69,7 +80,7 @@ const Eevee: Dancer = {
     kor: '이븨',
     eng: 'Eevee',
   },
-  image: '',
+  image: eeveeImg,
   birth: new Date(1993, 3, 9),
   description: 'Tour dancer for Jay Park and AOMG.',
   choreo: [],
@@ -84,7 +95,7 @@ const Jane: Dancer = {
     kor: '제인',
     eng: 'Jane',
   },
-  image: '',
+  image: janeImg,
   birth: new Date(1995, 1, 4),
   description: 'Tour dancer for Jay Park and AOMG.',
   choreo: [],
@@ -99,7 +110,7 @@ const Taro: Dancer = {
     kor: '타로',
     eng: 'Taro',
   },
-  image: '',
+  image: taroImg,
   birth: new Date(1994, 4, 0),
   description: '',
   choreo: [],
@@ -114,7 +125,7 @@ const Hertz: Dancer = {
     kor: '헤르츠',
     eng: 'Hertz',
   },
-  image: '',
+  image: hertzImg,
   birth: new Date(1992, 10, 19),
   description: '',
   choreo: [],
@@ -129,7 +140,7 @@ const HolyBang: Crew = {
     kor: '홀리뱅',
     eng: 'HolyBang',
   },
-  image: '',
+  image: logoImg,
   description: '',
   finalRank: 1,
   key: '',
