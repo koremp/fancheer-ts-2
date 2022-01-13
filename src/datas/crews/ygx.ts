@@ -1,31 +1,21 @@
 import Crew from 'datas/types/Crew'
 import Dancer from 'datas/types/Dancer'
 
-const Yell: Dancer = {
-  name: {
-    kor: '예리',
-    eng: 'Yell',
-  },
-  image: '',
-  birth: new Date(2000, 3, 23),
-  description: '2018 Summer Youth Olympics B-Girl 1v1 Bronze Medallist',
-  choreo: [
-    // TBD
-  ],
-  link: [
-    'https://www.youtube.com/channel/UCy8ruIOEo43yAXi61anYC_w',
-    'https://www.instagram.com/yell_yeri_kim/',
-    'https://www.tiktok.com/@yellyerikim?',
-    'https://www.facebook.com/yerikim.aka.yell',
-  ]
-}
+import leejungImg from 'assets/crew/ygx/YGX_LEEJUNG_MAIN.jpg'
+import yeojinImg from 'assets/crew/ygx/YGX_YEOJIN_MAIN.jpg'
+import yellImg from 'assets/crew/ygx/YGX_YELL_MAIN.jpg'
+import isakImg from 'assets/crew/ygx/YGX_ISAK_MAIN.jpg'
+import jihyoImg from 'assets/crew/ygx/YGX_JIHYO_MAIN.jpg'
+
+import logoImg from 'assets/crew/ygx/YGX.jpg'
+
 
 const Leejung: Dancer = {
   name: {
     kor: '리정',
     eng: 'Leejung Lee',
   },
-  image: '',
+  image: leejungImg,
   birth: new Date(1998, 8, 8),
   isLeader: true,
   description: 'Choreographer for TWICE, ITZY, Sunmi, Somi, BLACKPINK, iKON',
@@ -44,7 +34,7 @@ const Yeojin: Dancer = {
     kor: '여진',
     eng: 'Yeojin',
   },
-  image: '',
+  image: yeojinImg,
   birth: new Date(1994, 10, 8),
   description: '',
   choreo: [],
@@ -54,12 +44,31 @@ const Yeojin: Dancer = {
   ]
 }
 
+const Yell: Dancer = {
+  name: {
+    kor: '예리',
+    eng: 'Yell',
+  },
+  image: yellImg,
+  birth: new Date(2000, 3, 23),
+  description: '2018 Summer Youth Olympics B-Girl 1v1 Bronze Medallist',
+  choreo: [
+    // TBD
+  ],
+  link: [
+    'https://www.youtube.com/channel/UCy8ruIOEo43yAXi61anYC_w',
+    'https://www.instagram.com/yell_yeri_kim/',
+    'https://www.tiktok.com/@yellyerikim?',
+    'https://www.facebook.com/yerikim.aka.yell',
+  ]
+}
+
 const Isak: Dancer = {
   name: {
     kor: '이삭',
     eng: 'Isak',
   },
-  image: '',
+  image: isakImg,
   birth: new Date(1997, 3, 1),
   description: '',
   choreo: [],
@@ -71,7 +80,7 @@ const Jihyo: Dancer = {
     kor: '지효',
     eng: 'Jihyo',
   },
-  image: '',
+  image: jihyoImg,
   birth: new Date(1996, 10, 21),
   description: '',
   choreo: [],
@@ -87,7 +96,7 @@ const YGX: Crew = {
     kor: '와이지엑스',
     eng: 'YGX'
   },
-  image: '',
+  image: logoImg,
   description: '',
   finalRank: 5,
   key: '',
