@@ -1,12 +1,20 @@
 import Crew from 'datas/types/Crew'
 import Dancer from 'datas/types/Dancer'
 
+import hyojinchoiImg from 'assets/crew/want/WANT_HYOJINCHOI_MAIN.jpg'
+import rozalinImg from 'assets/crew/want/WANT_ROZALIN_MAIN.jpg'
+import moanaImg from 'assets/crew/want/WANT_MOANA_MAIN.jpg'
+import emmaImg from 'assets/crew/want/WANT_EMMA_MAIN.jpg'
+import leechaeyeonImg from 'assets/crew/want/WANT_LEECHAEYEON_MAIN.jpg'
+
+import logoImg from 'assets/crew/want/WANT.jpg'
+
 const HyojinChoi: Dancer = {
   name: {
     kor: '효진초이',
     eng: 'Hyojin Choi',
   },
-  image: '',
+  image: hyojinchoiImg,
   birth: new Date(1992, 1, 19),
   isLeader: true,
   description: 'Choreographer at 1Million Dance Studio',
@@ -22,7 +30,7 @@ const Rozalin: Dancer = {
     kor: '로잘린',
     eng: 'Rozalin',
   },
-  image: '',
+  image: rozalinImg,
   birth: new Date(1997, 9, 14),
   description: 'Choreographer for aespa, Weeekly',
   choreo: [],
@@ -38,7 +46,7 @@ const Moana: Dancer = {
     kor: '모아나',
     eng: 'Moana',
   },
-  image: '',
+  image: moanaImg,
   birth: new Date(1995, 6, 24),
   description: `Choreographer for KARD's "Gunshot" (with Emma)`,
   choreo: [],
@@ -52,7 +60,7 @@ const Emma: Dancer = {
     kor: '엠마',
     eng: 'Emma',
   },
-  image: '',
+  image: emmaImg,
   birth: new Date(2000, 4, 25),
   description: `Choreographer for KARD's "Gunshot" (with Moana)`,
   choreo: [],
@@ -68,7 +76,7 @@ const LeeChaeyeon: Dancer = {
     kor: '이채연',
     eng: 'Lee Chaeyeon',
   },
-  image: '',
+  image: leechaeyeonImg,
   birth: new Date(2000, 1, 10),
   description: `Former IZ*ONE member and current solo artist under WM Entertainment.\nOlder sister of current ITZY member Chaeryeong.`,
   choreo: [],
@@ -83,7 +91,7 @@ const WANT: Crew = {
     kor: '원트',
     eng: 'WANT',
   },
-  image: '',
+  image: logoImg,
   description: '',
   finalRank: 7,
   key: '',
