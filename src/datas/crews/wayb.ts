@@ -1,12 +1,20 @@
 import Crew from 'datas/types/Crew'
 import Dancer from 'datas/types/Dancer'
 
+import nozeImg from 'assets/crew/wayb/WAYB_NOZE_MAIN.jpg'
+import gyurianImg from 'assets/crew/wayb/WAYB_GYURIAN_MAIN.jpg'
+import dollaImg from 'assets/crew/wayb/WAYB_DOLLA_MAIN.jpg'
+import leesuImg from 'assets/crew/wayb/WAYB_LEESU_MAIN.jpg'
+import anssoImg from 'assets/crew/wayb/WAYB_ANSSO_MAIN.jpg'
+
+import logoImg from 'assets/crew/wayb/WAYB.jpg'
+
 const Noze: Dancer = {
   name: {
     kor: '노제',
     eng: 'Noze',
   },
-  image: '',
+  image: nozeImg,
   birth: new Date(1996, 2, 11),
   isLeader: true,
   description: `Dancer for Kai's "Mmmh", Taemin's "Advice"`,
@@ -23,7 +31,7 @@ const GyuriAn: Dancer = {
     kor: '규리안',
     eng: 'Gyuri An',
   },
-  image: '',
+  image: gyurianImg,
   birth: new Date(2002, 1, 5),
   description: '',
   choreo: [],
@@ -38,7 +46,7 @@ const Dolla: Dancer = {
     kor: '돌라',
     eng: 'Dolla',
   },
-  image: '',
+  image: dollaImg,
   birth: new Date(1996, 1, 14),
   description: '',
   choreo: [],
@@ -52,7 +60,7 @@ const LeeSu: Dancer = {
     kor: '리수',
     eng: 'Lee Su',
   },
-  image: '',
+  image: leesuImg,
   birth: new Date(2000, 7, 0),
   description: `Dancer for Kai's "Mmmh" (with Noze), and The Boyz`,
   choreo: [],
@@ -66,7 +74,7 @@ const Ansso: Dancer = {
     kor: '안쏘',
     eng: 'Ansso',
   },
-  image: '',
+  image: anssoImg,
   birth: new Date(1997, 8, 0),
   description: '',
   choreo: [],
@@ -80,7 +88,7 @@ const WAYB: Crew = {
     kor: '웨이비',
     eng: 'WAYB',
   },
-  image: '',
+  image: logoImg,
   description: '',
   finalRank: 8,
   key: '',
