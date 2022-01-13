@@ -1,6 +1,6 @@
-import Name from 'datas/types/Name'
-import Choreo from 'datas/types/Choreo'
-import Link from 'datas/types/Link'
+import Name from 'types/Name'
+import Choreo from 'types/Choreo'
+import Link from 'types/Link'
 
 interface Dancer {
   name: Name
@@ -9,7 +9,7 @@ interface Dancer {
   isLeader?: boolean
   description: string
   choreo: Choreo[]
-  link: string[] 
+  link: string[]
 }
 
 export default Dancer
