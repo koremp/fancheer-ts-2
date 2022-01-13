@@ -7,7 +7,7 @@ import PROWDMON from 'datas/crews/prowdmon'
 import WANT from 'datas/crews/want'
 import WAYB from 'datas/crews/wayb'
 
-import CREW from 'datas/types/Crew'
+import CREW from 'types/Crew'
 
 const data: {
   crews: CREW[],
@@ -24,7 +24,7 @@ const data: {
     WAYB,
   ],
   key: '',
-} 
+}
 
 data.key = data.crews[0].name.eng
 

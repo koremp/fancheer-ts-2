@@ -1,5 +1,5 @@
-import Crew from 'datas/types/Crew'
-import Dancer from 'datas/types/Dancer'
+import Crew from 'types/Crew'
+import Dancer from 'types/Dancer'
 
 import nozeImg from 'assets/crew/wayb/WAYB_NOZE_MAIN.jpg'
 import gyurianImg from 'assets/crew/wayb/WAYB_GYURIAN_MAIN.jpg'

@@ -5,8 +5,8 @@ import produce from 'immer'
 import moment from 'moment'
 
 import data from 'datas/crews'
-import Crew from 'datas/types/Crew'
-import Dancer from 'datas/types/Dancer'
+import Crew from 'types/Crew'
+import Dancer from 'types/Dancer'
 
 const { Header, Content, Sider, Footer } = Layout
 

@@ -1,5 +1,5 @@
-import Crew from 'datas/types/Crew'
-import Dancer from 'datas/types/Dancer'
+import Crew from 'types/Crew'
+import Dancer from 'types/Dancer'
 
 import hyojinchoiImg from 'assets/crew/want/WANT_HYOJINCHOI_MAIN.jpg'
 import rozalinImg from 'assets/crew/want/WANT_ROZALIN_MAIN.jpg'

@@ -1,5 +1,5 @@
-import Crew from 'datas/types/Crew'
-import Dancer from 'datas/types/Dancer'
+import Crew from 'types/Crew'
+import Dancer from 'types/Dancer'
 
 import leejungImg from 'assets/crew/ygx/YGX_LEEJUNG_MAIN.jpg'
 import yeojinImg from 'assets/crew/ygx/YGX_YEOJIN_MAIN.jpg'
@@ -117,6 +117,6 @@ export const YGXMember = {
   Yell,
   Isak,
   Jihyo,
-} 
+}
 
 export default YGX

@@ -1,5 +1,5 @@
-import Crew from 'datas/types/Crew'
-import Dancer from 'datas/types/Dancer'
+import Crew from 'types/Crew'
+import Dancer from 'types/Dancer'
 
 import monikaImg from 'assets/crew/prowdmon/PROWDMON_MONIKA_MAIN.jpg'
 import diaImg from 'assets/crew/prowdmon/PROWDMON_DIA_MAIN.jpg'

@@ -1,5 +1,5 @@
-import Crew from 'datas/types/Crew'
-import Dancer from 'datas/types/Dancer'
+import Crew from 'types/Crew'
+import Dancer from 'types/Dancer'
 
 import riheyImg from 'assets/crew/cocanbutter/CocaNButter_RIHEY_MAIN.jpg'
 import gagaImg from 'assets/crew/cocanbutter/CocaNButter_GAGA_MAIN.jpg'

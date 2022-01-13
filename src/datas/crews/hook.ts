@@ -1,5 +1,5 @@
-import Crew from 'datas/types/Crew'
-import Dancer from 'datas/types/Dancer'
+import Crew from 'types/Crew'
+import Dancer from 'types/Dancer'
 
 import aikiImg from 'assets/crew/hook/HOOK_AIKI_MAIN.jpg'
 import bornImg from 'assets/crew/hook/HOOK_BORN_MAIN.jpg'

@@ -1,5 +1,5 @@
-import Crew from 'datas/types/Crew'
-import Dancer from 'datas/types/Dancer'
+import Crew from 'types/Crew'
+import Dancer from 'types/Dancer'
 
 import gabeeImg from 'assets/crew/lachica/LACHICA_GABEE_MAIN.jpg'
 import rianImg from 'assets/crew/lachica/LACHICA_RIAN_MAIN.jpg'

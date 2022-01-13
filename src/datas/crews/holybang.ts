@@ -1,5 +1,5 @@
-import Crew from 'datas/types/Crew'
-import Dancer from 'datas/types/Dancer'
+import Crew from 'types/Crew'
+import Dancer from 'types/Dancer'
 
 import honeyjImg from 'assets/crew/holybang/HolyBang_HONEYJ_MAIN.jpg'
 import loaImg from 'assets/crew/holybang/HolyBang_LOA_MAIN.jpg'
