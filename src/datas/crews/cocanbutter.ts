@@ -1,12 +1,20 @@
 import Crew from 'datas/types/Crew'
 import Dancer from 'datas/types/Dancer'
 
+import riheyImg from 'assets/crew/cocanbutter/CocaNButter_RIHEY_MAIN.jpg'
+import gagaImg from 'assets/crew/cocanbutter/CocaNButter_GAGA_MAIN.jpg'
+import bickiImg from 'assets/crew/cocanbutter/CocaNButter_BICKI_MAIN.jpg'
+import zsunImg from 'assets/crew/cocanbutter/CocaNButter_ZSUN_MAIN.jpg'
+import jillinImg from 'assets/crew/cocanbutter/CocaNButter_JILLIN_MAIN.jpg'
+import logo from 'assets/crew/cocanbutter/CocaNButter.jpg'
+
+
 const Rihey: Dancer = {
   name: {
     kor: '리헤이',
     eng: 'Rihey',
   },
-  image: '',
+  image: riheyImg,
   birth: new Date(1990, 4, 16),
   isLeader: true,
   description: `Former member of PURPLOW Dance crew which members includes its former leader and now. Holy Bang leader Honey J, and current CocaNButter members Gaga, Bicki, Zsun, and Jillin. Choreographer at Bangall Dance Academy`,
@@ -22,7 +30,7 @@ const Gaga: Dancer = {
     kor: '가가',
     eng: 'Gaga',
   },
-  image: '',
+  image: gagaImg,
   birth: new Date(1993, 7, 3),
   description: `Former member of PURPLOW Dance crew. Choreographer at Bangall Dance Academy`,
   choreo: [],
@@ -37,7 +45,7 @@ const Bicki: Dancer = {
     kor: '비키',
     eng: 'Bicki',
   },
-  image: '',
+  image: bickiImg,
   birth: new Date(1994, 3, 19),
   description: `Former member of PURPLOW Dance crew.`,
   choreo: [],
@@ -52,7 +60,7 @@ const ZSun: Dancer = {
     kor: '제트썬',
     eng: 'ZSun',
   },
-  image: '',
+  image: zsunImg,
   birth: new Date(1990, 3, 28),
   description: `Former member of PURPLOW Dance crew.\nChoreographer for KARD. Former Dancehall singer previously signed under Luminant Entertainment.`,
   choreo: [],
@@ -68,7 +76,7 @@ const Jillin: Dancer = {
     kor: '질린',
     eng: 'Jillin',
   },
-  image: '',
+  image: jillinImg,
   birth: new Date(1994, 8, 15),
   description: `Former member of PURPLOW Dance crew.`,
   choreo: [],
@@ -84,7 +92,7 @@ const COCANBUTTER: Crew = {
     kor: '코카엔버터',
     eng: 'CocaNButter',
   },
-  image: '',
+  image: logo,
   description: '',
   finalRank: 4,
   key: '',
