@@ -7,7 +7,7 @@ let config = {
             ...config.resolve.alias,
             // utils: path.join(__dirname, 'src', 'utils'),
             // hooks: path.join(__dirname, 'src', 'hooks'),
-            // styles: path.join(__dirname, 'src', 'styles'),
+            types: path.join(__dirname, 'src', 'types'),
             assets: path.join(__dirname, 'src', 'assets'),
             components: path.join(__dirname, 'src', 'components'),
             pages: path.join(__dirname, 'src', 'pages'),
