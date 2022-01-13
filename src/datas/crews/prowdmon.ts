@@ -1,12 +1,21 @@
 import Crew from 'datas/types/Crew'
 import Dancer from 'datas/types/Dancer'
 
+import monikaImg from 'assets/crew/prowdmon/PROWDMON_MONIKA_MAIN.jpg'
+import diaImg from 'assets/crew/prowdmon/PROWDMON_DIA_MAIN.jpg'
+import rosyImg from 'assets/crew/prowdmon/PROWDMON_ROSY_MAIN.jpg'
+import lipjImg from 'assets/crew/prowdmon/PROWDMON_LIPJ_MAIN.jpg'
+import kaydayImg from 'assets/crew/prowdmon/PROWDMON_KAYDAY_MAIN.jpg'
+import hamgImg from 'assets/crew/prowdmon/PROWDMON_HAMG_MAIN.jpg'
+import hyeilyImg from 'assets/crew/prowdmon/PROWDMON_HYEILY_MAIN.jpg'
+import logoImg from 'assets/crew/prowdmon/PROWDMON.jpg'
+
 const Monika: Dancer = {
   name: {
     kor: '모니카',
     eng: 'Monika',
   },
-  image: '',
+  image: monikaImg,
   birth: new Date(1986, 6, 21),
   isLeader: true,
   description: `Known as the "Teacher of all Dancers" as she was the Dance Professor for most of the contestants during their college years. Choreographer for Amoeba Culture. Member of WooFam. One half of the dance duo MOLIP with fellow PRODWMON member Lip J.`,
@@ -24,7 +33,7 @@ const DIA: Dancer = {
     kor: '다이아',
     eng: 'DIA',
   },
-  image: '',
+  image: diaImg,
   birth: new Date(1996, 10, 28),
   description: `Choreographer at OFD Studio`,
   choreo: [],
@@ -39,7 +48,7 @@ const Rosy: Dancer = {
     kor: '로지',
     eng: 'Rosy',
   },
-  image: '',
+  image: rosyImg,
   birth: new Date(1999, 8, 12),
   description: `Choreographer at OFD Studio. Former YG Entertainment trainee.`,
   choreo: [],
@@ -54,7 +63,7 @@ const LipJ: Dancer = {
     kor: '립제이',
     eng: 'Lip J',
   },
-  image: '',
+  image: lipJ,
   birth: new Date(1988, 7, 29),
   description: `World-renowned Waacking dancer. Choreographer for Amoeba Culture, Yubin, and Lee Hi. Member of dance duo MOLIP (with PRODWMON member Monika), ElizaBitch, and Team W.O.W. (World Of Waackers).`,
   choreo: [],
@@ -69,7 +78,7 @@ const Kayday: Dancer = {
     kor: '케이데이',
     eng: 'Kayday',
   },
-  image: '',
+  image: kaydayImg,
   birth: new Date(1999, 10, 0),
   description: `Choreographer at OFD Studio.`,
   choreo: [],
@@ -84,7 +93,7 @@ const HamG: Dancer = {
     kor: '함지',
     eng: 'Ham.G',
   },
-  image: '',
+  image: hamgImg,
   birth: new Date(1995, 12, 4),
   description: `Choreographer at OFD Studio.`,
   choreo: [],
@@ -98,7 +107,7 @@ const Hyeily: Dancer = {
     kor: '헤일리',
     eng: 'Hyeily',
   },
-  image: '',
+  image: hyeilyImg,
   birth: new Date(1999, 5, 4),
   description: `Choreographer at OFD Studio.`,
   choreo: [],
@@ -112,7 +121,7 @@ const PROWDMON: Crew = {
     kor: '프라우드먼',
     eng: 'PROWDMON',
   },
-  image: '',
+  image: logoImg,
   description: '',
   finalRank: 6,
   key: '',
