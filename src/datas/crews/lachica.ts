@@ -1,12 +1,19 @@
 import Crew from 'datas/types/Crew'
 import Dancer from 'datas/types/Dancer'
 
+import gabeeImg from 'assets/crew/lachica/LACHICA_GABEE_MAIN.jpg'
+import rianImg from 'assets/crew/lachica/LACHICA_RIAN_MAIN.jpg'
+import simeezImg from 'assets/crew/lachica/LACHICA_SIMEEZ_MAIN.jpg'
+import h1Img from 'assets/crew/lachica/LACHICA_H1_MAIN.jpg'
+import peanutImg from 'assets/crew/lachica/LACHICA_PEANUT_MAIN.jpg'
+import logoImg from 'assets/crew/lachica/LACHICA.jpg'
+
 const Gabee: Dancer = {
   name: {
     kor: '가비',
     eng: 'Gabee',
   },
-  image: '',
+  image: gabeeImg,
   birth: new Date(1993, 10, 2),
   isLeader: true,
   description: `Choreographer (with Rian and Simeez) for BoA, Yubin, Chungha, CLC, TWICE, Natty.\nFormerly known as "Single Lady" during her underground dance battle days.`,
@@ -24,7 +31,7 @@ const Rian: Dancer = {
     kor: '리안',
     eng: 'Rian',
   },
-  image: '',
+  image: rianImg,
   birth: new Date(1993, 9, 10),
   description: `Choreographer for Chungha, Hyoyeon, Weki Meki`,
   choreo: [],
@@ -42,7 +49,7 @@ const Simeez: Dancer = {
     kor: '시미즈',
     eng: 'Simeez',
   },
-  image: '',
+  image: simeezImg,
   birth: new Date(1996, 4, 3),
   description: `Choreographer for KARD, April, Rocket Girls 101`,
   choreo: [],
@@ -60,7 +67,7 @@ const H1: Dancer = {
     kor: '에이치원',
     eng: 'H_1',
   },
-  image: '',
+  image: h1Img,
   birth: new Date(1994, 10, 28),
   description: `Choreographer and back-up dancer for Hwasa`,
   choreo: [],
@@ -76,7 +83,7 @@ const Peanut: Dancer = {
     kor: '피넛',
     eng: 'Peanut',
   },
-  image: '',
+  image: peanutImg,
   birth: new Date(1990, 5, 6),
   description: `Professional Waacker`,
   choreo: [],
@@ -91,7 +98,7 @@ const Lachica: Crew = {
     kor: '라치카',
     eng: 'LACHICA',
   },
-  image: '',
+  image: logoImg,
   description: '',
   finalRank: 3,
   key: '',
