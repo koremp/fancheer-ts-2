@@ -15,6 +15,10 @@ let config = {
         };
         return config;
     },
+    images: {
+        loader: 'akamai',
+        path: '/',
+    }
 }
 
 
