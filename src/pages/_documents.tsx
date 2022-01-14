@@ -14,4 +14,5 @@ export default function Document(): JSX.Element {
         <NextScript />
       </body>
     </Html>
-  );
+  )
+}
