@@ -1,15 +1,15 @@
 import Crew from 'types/Crew'
 import Dancer from 'types/Dancer'
 
-import aikiImg from 'assets/crew/hook/HOOK_AIKI_MAIN.jpg'
-import bornImg from 'assets/crew/hook/HOOK_BORN_MAIN.jpg'
-import hyowooImg from 'assets/crew/hook/HOOK_HYOWOO_MAIN.jpg'
-import oddImg from 'assets/crew/hook/HOOK_ODD_MAIN.jpg'
-import rageonImg from 'assets/crew/hook/HOOK_RAGEON_MAIN.jpg'
-import sungjiyeonImg from 'assets/crew/hook/HOOK_SUNGJIYEON_MAIN.jpg'
-import seonyoonkyungImg from 'assets/crew/hook/HOOK_SEONYOONKYUNG_MAIN.jpg'
+import aikiImg from '/crew/hook/HOOK_AIKI_MAIN.jpg'
+import bornImg from '/crew/hook/HOOK_BORN_MAIN.jpg'
+import hyowooImg from '/crew/hook/HOOK_HYOWOO_MAIN.jpg'
+import oddImg from '/crew/hook/HOOK_ODD_MAIN.jpg'
+import rageonImg from '/crew/hook/HOOK_RAGEON_MAIN.jpg'
+import sungjiyeonImg from '/crew/hook/HOOK_SUNGJIYEON_MAIN.jpg'
+import seonyoonkyungImg from '/crew/hook/HOOK_SEONYOONKYUNG_MAIN.jpg'
 
-import logoImg from 'assets/crew/hook/HOOK.jpg'
+import logoImg from '/crew/hook/HOOK.jpg'
 
 const Aiki: Dancer = {
   name: {

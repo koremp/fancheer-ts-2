@@ -1,13 +1,13 @@
 import Crew from 'types/Crew'
 import Dancer from 'types/Dancer'
 
-import hyojinchoiImg from 'assets/crew/want/WANT_HYOJINCHOI_MAIN.jpg'
-import rozalinImg from 'assets/crew/want/WANT_ROZALIN_MAIN.jpg'
-import moanaImg from 'assets/crew/want/WANT_MOANA_MAIN.jpg'
-import emmaImg from 'assets/crew/want/WANT_EMMA_MAIN.jpg'
-import leechaeyeonImg from 'assets/crew/want/WANT_LEECHAEYEON_MAIN.jpg'
+import hyojinchoiImg from '/crew/want/WANT_HYOJINCHOI_MAIN.jpg'
+import rozalinImg from '/crew/want/WANT_ROZALIN_MAIN.jpg'
+import moanaImg from '/crew/want/WANT_MOANA_MAIN.jpg'
+import emmaImg from '/crew/want/WANT_EMMA_MAIN.jpg'
+import leechaeyeonImg from '/crew/want/WANT_LEECHAEYEON_MAIN.jpg'
 
-import logoImg from 'assets/crew/want/WANT.jpg'
+import logoImg from '/crew/want/WANT.jpg'
 
 const HyojinChoi: Dancer = {
   name: {

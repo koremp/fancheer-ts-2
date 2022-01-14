@@ -1,13 +1,13 @@
 import Crew from 'types/Crew'
 import Dancer from 'types/Dancer'
 
-import riheyImg from 'assets/crew/cocanbutter/CocaNButter_RIHEY_MAIN.jpg'
-import gagaImg from 'assets/crew/cocanbutter/CocaNButter_GAGA_MAIN.jpg'
-import bickiImg from 'assets/crew/cocanbutter/CocaNButter_BICKI_MAIN.jpg'
-import zsunImg from 'assets/crew/cocanbutter/CocaNButter_ZSUN_MAIN.jpg'
-import jillinImg from 'assets/crew/cocanbutter/CocaNButter_JILLIN_MAIN.jpg'
+import riheyImg from '/crew/cocanbutter/CocaNButter_RIHEY_MAIN.jpg'
+import gagaImg from '/crew/cocanbutter/CocaNButter_GAGA_MAIN.jpg'
+import bickiImg from '/crew/cocanbutter/CocaNButter_BICKI_MAIN.jpg'
+import zsunImg from '/crew/cocanbutter/CocaNButter_ZSUN_MAIN.jpg'
+import jillinImg from '/crew/cocanbutter/CocaNButter_JILLIN_MAIN.jpg'
 
-import logoImg from 'assets/crew/cocanbutter/CocaNButter.jpg'
+import logoImg from '/crew/cocanbutter/CocaNButter.jpg'
 
 const Rihey: Dancer = {
   name: {
