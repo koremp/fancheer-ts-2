@@ -15,6 +15,14 @@
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "types": ["types"],
+      "assets": ["common-assets"],
+      "components": ["components"],
+      "pages": ["pages"],
+      "datas": ["datas"],
+    },
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve"
