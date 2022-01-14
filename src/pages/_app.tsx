@@ -1,9 +1,9 @@
 import { Global } from '@emotion/react'
-import { GoogleFonts } from 'next-google-fonts'
-import { DefaultSeo } from 'next-seo'
 import Head from 'next/head'
 
 import 'antd/dist/antd.css'
+
+import '../styles.css'
 
 const App = ({ Component, pageProps }) => {
   return (
