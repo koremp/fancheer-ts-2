@@ -24,8 +24,8 @@ jobs:
       - name: Install and Build
         uses: actions/setup-node@v2
       - run: yarn
-      - run: yarn build
-      - run: yarn export
+      - run: yarn next build
+      - run: yarn next export
         env:
           CI: true
           DEPLOY_TARGET: gh-pages
