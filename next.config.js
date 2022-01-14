@@ -19,7 +19,7 @@ let config = {
     },
     images: {
         loader: 'akamai',
-        path: isProduction ? 'https://koremp.github.io/fancheer-ts-2' : 'http://localhost:3000',
+        path: isProduction ? '' : 'http://localhost:3000',
     },
     assetPrefix: isProduction ? 'https://koremp.github.io/fancheer-ts-2' : '',
 }
