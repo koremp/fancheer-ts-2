@@ -20,9 +20,9 @@
       "types": ["types"],
       "assets": ["common-assets"],
       "components": ["components"],
-      "pages": ["pages"],
+      "pages": ["src/pages"],
       "datas": ["datas"],
-    },
+    },  
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve"
