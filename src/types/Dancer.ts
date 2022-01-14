@@ -4,7 +4,7 @@ import Link from 'types/Link'
 
 export default interface Dancer {
   name: Name
-  image: string | string[]
+  image: StaticImageData
   birth: Date
   isLeader?: boolean
   description: string

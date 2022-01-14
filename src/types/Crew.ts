@@ -3,9 +3,9 @@ import Name from 'types/Name'
 
 export default interface Crew {
   name: Name
-  image: string
+  image: StaticImageData
   description?: any
   finalRank: number
-  index: number
+  key: string
   dancers: Dancer[]
 }
