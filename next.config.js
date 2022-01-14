@@ -1,8 +1,6 @@
 const path = require('path')
 
 const isProduction = process.env.NODE_ENV === 'production';
-const productionURL = 'https://koremp.github.io/';
-const productionPath = 'fancheer-ts-2/'
 
 
 let config = {
@@ -21,9 +19,9 @@ let config = {
     },
     images: {
         loader: 'akamai',
-        path: isProduction ? productionURL : 'http://localhost:3000',
+        path: isProduction ? 'https://koremp.github.io/fancheer-ts-2' : 'http://localhost:3000',
     },
-    assetPrefix: isProduction ? productionPath : '',
+    assetPrefix: isProduction ? 'https://koremp.github.io/fancheer-ts-2' : '',
 }
 
 
