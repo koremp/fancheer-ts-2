@@ -2,7 +2,7 @@ import Name from 'types/Name'
 import Choreo from 'types/Choreo'
 import Link from 'types/Link'
 
-interface Dancer {
+export default interface Dancer {
   name: Name
   image: string | string[]
   birth: Date
@@ -11,5 +11,3 @@ interface Dancer {
   choreo: Choreo[]
   link: string[]
 }
-
-export default Dancer

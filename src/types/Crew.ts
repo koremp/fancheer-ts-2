@@ -1,7 +1,7 @@
 import Dancer from 'types/Dancer'
 import Name from 'types/Name'
 
-interface Crew {
+export default interface Crew {
   name: Name
   image: string
   description?: any
@@ -9,5 +9,3 @@ interface Crew {
   index: number
   dancers: Dancer[]
 }
-
-export default Crew
