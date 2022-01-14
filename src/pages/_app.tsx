@@ -5,46 +5,19 @@ import Head from 'next/head'
 
 import 'antd/dist/antd.css'
 
-import '../styles.css'
-
 const App = ({ Component, pageProps }) => {
   return (
     <>
-      <DefaultSeo
-        title="FanCheer"
-        description="FanCheer Version 2 With TypeScript, Next.js"
-        openGraph={{
-          type: 'website',
-          url: 'https://koremp.github.io/fancheer-ts-2',
-          // images: [{
-          //     url: `https://koremp.github.io/fancheer-ts-2`,
-          // }]
-        }}
-      />
-      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" />
-      <Global
-        styles={{
-          '*': {
-            boxSizing: 'border-box',
-          },
-          html: {
-            padding: 0,
-            fontFamily: 'sans-serif',
-          },
-          'body, ol, ul, li': {
-            margin: 0,
-            padding: 0,
-          },
-          'ol, ul, li': {
-            listStyle: 'none'
-          }
-        }}
-      />
       <Head>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="FanCheer Version 2" />
+        {/* <link rel="manifest" href="/manifest.json" /> */}
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Component {...pageProps} />
     </>
