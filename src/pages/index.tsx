@@ -8,7 +8,7 @@ import data from 'datas/crews'
 import Crew from 'types/Crew'
 import Dancer from 'types/Dancer'
 
-const { Header, Content, Sider, Footer } = Layout
+const { Header, Content, Sider } = Layout
 
 const Main = () => {
   const [crew, setCrew] = useState<Crew>(data.crews.find((crew) => crew.name.eng === data.key))
@@ -18,7 +18,6 @@ const Main = () => {
 
   const onClickCrew = (e) => {
     setCrewKey(e.key)
-    console.log(crewKey, e.key)
   }
 
   const onClickDancer = (e) => {
