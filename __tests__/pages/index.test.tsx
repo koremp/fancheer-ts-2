@@ -15,11 +15,12 @@ describe("Before Main", () => {
         addEventListener: jest.fn(),
         removeEventListener: jest.fn(),
         dispatchEvent: jest.fn(),
-      })),
-    });
+      }))
+    })
+  })
+
+  it('Main', () => {
+    render(<Main/>)
   })
 })
 
-test('Main', () => {
-  render(<Main />);
-});
