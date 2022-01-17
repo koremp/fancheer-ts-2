@@ -26,7 +26,7 @@ module.exports = {
 
     // Handle module aliases
     '^__tests__/(.*)$': '<rootDir>/__tests__/$1',
-    '^pages/(.*)$': '<rootDir>/pages/$1',
+    '^pages/(.*)$': '<rootDir>/src/pages/$1',
     '^src/(.*)$': '<rootDir>/src/$1',
   },
   setupFilesAfterEnv: [
