@@ -58,6 +58,7 @@ module.exports = {
     'config.js',
     'coverage',
 
+    '/src/types/',
     '_document.tsx',
     '_app.tsx',
     '_error.tsx',
@@ -76,6 +77,7 @@ module.exports = {
     'coverage',
     '/stories/',
     
+    '/src/types/',
     '_document.tsx',
     '_app.tsx',
     '_error.tsx',
