@@ -9,7 +9,8 @@ module.exports = {
     '!**/cypress',
   ],
   testMatch: [
-    '<rootDir>/**/?(*.)+(spec|test).[jt]s?(x)',
+    // wrong with windows 11 + git bash + yarn
+    '<rootDir>/**/?(*.)+(spec|test).ts?(x)',
   ],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
@@ -24,7 +25,6 @@ module.exports = {
     '^.+\\.(jpg|jpeg|png|gif|webp|svg)$': `<rootDir>/__mocks__/fileMock.js`,
 
     // Handle module aliases
-    '^__tests__/(.*)$': '<rootDir>/__tests__/$1',
     '^src/(.*)$': '<rootDir>/src/$1',
     '^pages/(.*)$': '<rootDir>/src/pages/$1',
     '^types/(.*)$': '<rootDir>/src/types/$1',
