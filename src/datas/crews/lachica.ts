@@ -1,12 +1,13 @@
 import Crew from 'types/Crew'
 import Dancer from 'types/Dancer'
 
-import gabeeImg from '/crew/lachica/LACHICA_GABEE_MAIN.jpg'
-import rianImg from '/crew/lachica/LACHICA_RIAN_MAIN.jpg'
-import simeezImg from '/crew/lachica/LACHICA_SIMEEZ_MAIN.jpg'
-import h1Img from '/crew/lachica/LACHICA_H1_MAIN.jpg'
-import peanutImg from '/crew/lachica/LACHICA_PEANUT_MAIN.jpg'
-import logoImg from '/crew/lachica/LACHICA.jpg'
+import gabeeImg from 'crew/lachica/LACHICA_GABEE_MAIN.jpg'
+import rianImg from 'crew/lachica/LACHICA_RIAN_MAIN.jpg'
+import simeezImg from 'crew/lachica/LACHICA_SIMEEZ_MAIN.jpg'
+import h1Img from 'crew/lachica/LACHICA_H1_MAIN.jpg'
+import peanutImg from 'crew/lachica/LACHICA_PEANUT_MAIN.jpg'
+
+import logoImg from 'crew/lachica/LACHICA.jpg'
 
 const Gabee: Dancer = {
   name: {

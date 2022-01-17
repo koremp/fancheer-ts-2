@@ -1,13 +1,13 @@
 import Crew from 'types/Crew'
 import Dancer from 'types/Dancer'
 
-import nozeImg from '/crew/wayb/WAYB_NOZE_MAIN.jpg'
-import gyurianImg from '/crew/wayb/WAYB_GYURIAN_MAIN.jpg'
-import dollaImg from '/crew/wayb/WAYB_DOLLA_MAIN.jpg'
-import leesuImg from '/crew/wayb/WAYB_LEESU_MAIN.jpg'
-import anssoImg from '/crew/wayb/WAYB_ANSSO_MAIN.jpg'
+import nozeImg from 'crew/wayb/WAYB_NOZE_MAIN.jpg'
+import gyurianImg from 'crew/wayb/WAYB_GYURIAN_MAIN.jpg'
+import dollaImg from 'crew/wayb/WAYB_DOLLA_MAIN.jpg'
+import leesuImg from 'crew/wayb/WAYB_LEESU_MAIN.jpg'
+import anssoImg from 'crew/wayb/WAYB_ANSSO_MAIN.jpg'
 
-import logoImg from '/crew/wayb/WAYB.jpg'
+import logoImg from 'crew/wayb/WAYB.jpg'
 
 const Noze: Dancer = {
   name: {

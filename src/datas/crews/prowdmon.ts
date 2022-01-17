@@ -1,14 +1,15 @@
 import Crew from 'types/Crew'
 import Dancer from 'types/Dancer'
 
-import monikaImg from '/crew/prowdmon/PROWDMON_MONIKA_MAIN.jpg'
-import diaImg from '/crew/prowdmon/PROWDMON_DIA_MAIN.jpg'
-import rosyImg from '/crew/prowdmon/PROWDMON_ROSY_MAIN.jpg'
-import lipjImg from '/crew/prowdmon/PROWDMON_LIPJ_MAIN.jpg'
-import kaydayImg from '/crew/prowdmon/PROWDMON_KAYDAY_MAIN.jpg'
-import hamgImg from '/crew/prowdmon/PROWDMON_HAMG_MAIN.jpg'
-import hyeilyImg from '/crew/prowdmon/PROWDMON_HYEILY_MAIN.jpg'
-import logoImg from '/crew/prowdmon/PROWDMON.jpg'
+import monikaImg from 'crew/prowdmon/PROWDMON_MONIKA_MAIN.jpg'
+import diaImg from 'crew/prowdmon/PROWDMON_DIA_MAIN.jpg'
+import rosyImg from 'crew/prowdmon/PROWDMON_ROSY_MAIN.jpg'
+import lipjImg from 'crew/prowdmon/PROWDMON_LIPJ_MAIN.jpg'
+import kaydayImg from 'crew/prowdmon/PROWDMON_KAYDAY_MAIN.jpg'
+import hamgImg from 'crew/prowdmon/PROWDMON_HAMG_MAIN.jpg'
+import hyeilyImg from 'crew/prowdmon/PROWDMON_HYEILY_MAIN.jpg'
+
+import logoImg from 'crew/prowdmon/PROWDMON.jpg'
 
 const Monika: Dancer = {
   name: {

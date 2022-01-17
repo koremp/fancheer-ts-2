@@ -1,16 +1,16 @@
 import Crew from 'types/Crew'
 import Dancer from 'types/Dancer'
 
-import honeyjImg from '/crew/holybang/HolyBang_HONEYJ_MAIN.jpg'
-import loaImg from '/crew/holybang/HolyBang_LOA_MAIN.jpg'
-import mullImg from '/crew/holybang/HolyBang_MULL_MAIN.jpg'
-import belleImg from '/crew/holybang/HolyBang_BELLE_MAIN.jpg'
-import eeveeImg from '/crew/holybang/HolyBang_EEVEE_MAIN.jpg'
-import janeImg from '/crew/holybang/HolyBang_JANE_MAIN.jpg'
-import taroImg from '/crew/holybang/HolyBang_TARO_MAIN.jpg'
-import hertzImg from '/crew/holybang/HolyBang_HERTZ_MAIN.jpg'
+import honeyjImg from 'crew/holybang/HolyBang_HONEYJ_MAIN.jpg'
+import loaImg from 'crew/holybang/HolyBang_LOA_MAIN.jpg'
+import mullImg from 'crew/holybang/HolyBang_MULL_MAIN.jpg'
+import belleImg from 'crew/holybang/HolyBang_BELLE_MAIN.jpg'
+import eeveeImg from 'crew/holybang/HolyBang_EEVEE_MAIN.jpg'
+import janeImg from 'crew/holybang/HolyBang_JANE_MAIN.jpg'
+import taroImg from 'crew/holybang/HolyBang_TARO_MAIN.jpg'
+import hertzImg from 'crew/holybang/HolyBang_HERTZ_MAIN.jpg'
 
-import logoImg from '/crew/holybang/HolyBang.jpg'
+import logoImg from 'crew/holybang/HolyBang.jpg'
 
 const HoneyJ: Dancer = {
   name: {
