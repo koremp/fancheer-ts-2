@@ -26,9 +26,10 @@ module.exports = {
     // Handle module aliases
     '^__tests__/(.*)$': '<rootDir>/__tests__/$1',
     '^src/(.*)$': '<rootDir>/src/$1',
+    '^pages/(.*)$': '<rootDir>/src/pages/$1',
     '^types/(.*)$': '<rootDir>/src/types/$1',
-    '^assets/(.*)$': '<rootDir>/src/assets/$1',
-    '^components/(.*)$': '<rootDir>/src/components/$1',
+    // '^assets/(.*)$': '<rootDir>/src/assets/$1/',
+    // '^components/(.*)$': '<rootDir>/src/components/$1',
     '^datas/(.*)$': '<rootDir>/src/datas/$1',
   },
   setupFilesAfterEnv: [
