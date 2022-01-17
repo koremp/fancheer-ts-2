@@ -25,7 +25,6 @@ module.exports = {
 
     // Handle module aliases
     '^__tests__/(.*)$': '<rootDir>/__tests__/$1',
-    '^pages/(.*)$': '<rootDir>/src/pages/$1',
     '^src/(.*)$': '<rootDir>/src/$1',
     '^types/(.*)$': '<rootDir>/src/types/$1',
     '^assets/(.*)$': '<rootDir>/src/assets/$1',
@@ -58,7 +57,7 @@ module.exports = {
     'config.js',
     'coverage',
 
-    '/src/types/',
+    '/types/',
     '_document.tsx',
     '_app.tsx',
     '_error.tsx',
@@ -77,7 +76,7 @@ module.exports = {
     'coverage',
     '/stories/',
     
-    '/src/types/',
+    '/types/',
     '_document.tsx',
     '_app.tsx',
     '_error.tsx',
