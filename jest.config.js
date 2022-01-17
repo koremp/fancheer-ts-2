@@ -28,9 +28,9 @@ module.exports = {
     '^__tests__/(.*)$': '<rootDir>/__tests__/$1',
     '^pages/(.*)$': '<rootDir>/src/pages/$1',
     '^src/(.*)$': '<rootDir>/src/$1',
-    '^src/types/(.*)$': '<rootDir>/src/$1',
-    '^src/assets/(.*)$': '<rootDir>/src/$1',
-    '^src/components/(.*)$': '<rootDir>/src/$1',
+    '^src/types/(.*)$': '<rootDir>/src/types/$1',
+    '^src/assets/(.*)$': '<rootDir>/src/assets/$1',
+    '^src/components/(.*)$': '<rootDir>/src/components/$1',
     '^src/datas/(.*)$': '<rootDir>/src/datas/$1',
   },
   setupFilesAfterEnv: [
