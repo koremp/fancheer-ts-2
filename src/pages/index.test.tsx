@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
 
-import Main from '../index';
+import Main from './index';
 
-describe("Before Main", () => {
+describe("Main", () => {
   beforeEach(() => {
     Object.defineProperty(window, 'matchMedia', {
       writable: true,
