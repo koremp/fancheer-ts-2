@@ -9,8 +9,7 @@ module.exports = {
     '!**/cypress',
   ],
   testMatch: [
-    // wrong with windows 11 + git bash + yarn
-    '<rootDir>/**/?(*.)+(spec|test).ts?(x)',
+    '<rootDir>/src/**/*.+(spec|test).ts?(x)',
   ],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
