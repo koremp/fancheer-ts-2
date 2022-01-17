@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import Main from 'pages/index';
 
 describe("Before Main", () => {
-  beforeAll(() => {
+  beforeEach(() => {
     Object.defineProperty(window, 'matchMedia', {
       writable: true,
       value: jest.fn().mockImplementation(query => ({
