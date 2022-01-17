@@ -9,7 +9,7 @@ module.exports = {
     '!**/cypress',
   ],
   testMatch: [
-    '<rootDir>/src/**/?(*.)+(spec|test).[jt]s?(x)',
+    '<rootDir>/**/?(*.)+(spec|test).[jt]s?(x)',
   ],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
