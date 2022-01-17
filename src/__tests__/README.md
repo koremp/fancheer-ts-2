@@ -1,0 +1,1 @@
+tests files for Next.js's Page Directory Route
