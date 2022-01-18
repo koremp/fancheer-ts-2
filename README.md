@@ -2,24 +2,33 @@
 
 Create Next App 없이 TypeScript로 gh-pages로 배포하기
 
-## 문제들
-### 댄서들 정보
+![Next.JS](https://img.shields.io/badge/next.js-TypeScript-007ACC?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Emotion](https://img.shields.io/badge/👩‍🎤_Emotion-CC6699?style=for-the-badge&logo=emotion&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Github Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+![Repo Size](https://img.shields.io/github/repo-size/koremp/fancheer-ts-2)
+
+[![Coverage](https://github.com/sex-request/frontend/actions/workflows/coverage.yaml/badge.svg)](https://github.com/sex-request/frontend/actions/workflows/coverage.yaml)
+
+### 문제들
+#### 댄서들 정보
 
 나무위키 크롤링하기... 필요함 (50명이 넘을듯) <br>
 -> 수기 입력했는데, 너무 아쉬운 것이다... 
 
-### 이미지
+#### 이미지
 
 이미지는 아직도 사이즈가 들쭉날쭉하고 레이아웃도 이상함 <br>
 -> 이미지를 직접 추가할 수 있도록 만드려면 직접 서버를 만들어야하고 그걸 또 배포해야하는 일들이 생기니까 귀찮은 것
-### Next Config Js - Path Alias
+#### Next Config Js - Path Alias
 
 VS Code에선 path 를 못잡음 그래서 타입 자동완성이 안됨
 tsconfig.json 에서 Path Alias와 Next Config 에서 Path Alias를 설정해주니 설정 문제가 해결되었다.
 
 의외로 시간이 많이 걸렸다. 문제의 갈피를 찾지 못하니까 직접 노가다로 이미지 파일들의 url들을 변경하고 파일도 이동하고 변경하고 그런 의미없는 삽질들을 했다.
 
-### 참고한 레포
+#### 참고한 레포
 
 * https://github.com/NullFull/wonderful-laws
 * https://github.com/sex-request/frontend/
