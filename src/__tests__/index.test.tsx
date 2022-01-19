@@ -19,7 +19,11 @@ describe("Main", () => {
     })
   })
 
-  it('Main', () => {
+  test('Selected Crew changes when header menu key is changed.', () => {
+    render(<Main/>)
+  })
+
+  test('Selected Dancer changes when sider menu key is changed.', () => {
     render(<Main/>)
   })
 })
