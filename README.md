@@ -9,7 +9,7 @@ Create Next App 없이 TypeScript로 gh-pages로 배포하기
 
 ![Repo Size](https://img.shields.io/github/repo-size/koremp/fancheer-ts-2)
 
-[![Coverage](https://github.com/sex-request/frontend/actions/workflows/coverage.yaml/badge.svg)](https://github.com/sex-request/frontend/actions/workflows/coverage.yaml)
+[![Coverage](https://github.com/koremp/fancheer-ts-2/actions/workflows/coverage.yaml/badge.svg)](https://github.com/koremp/fancheer-ts-2/actions/workflows/coverage.yaml)
 
 ### 문제들
 #### 댄서들 정보
