@@ -20,6 +20,7 @@ Create Next App 없이 TypeScript로 gh-pages로 배포하기
 #### 이미지
 
 이미지는 아직도 사이즈가 들쭉날쭉하고 레이아웃도 이상함 <br>
+`next/image`를 사용하기 위해서 ant design에 넣어서 이상한걸까..
 -> 이미지를 직접 추가할 수 있도록 만드려면 직접 서버를 만들어야하고 그걸 또 배포해야하는 일들이 생기니까 귀찮은 것
 #### Next Config Js - Path Alias
 
