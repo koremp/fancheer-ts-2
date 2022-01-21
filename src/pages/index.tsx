@@ -1,45 +1,43 @@
-import { useState, useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 import { Descriptions, Layout, Menu } from 'antd'
 import Image from 'next/image'
-import produce from 'immer'
 import moment from 'moment'
 
-import data from 'datas/crews'
-import Crew from 'types/Crew'
-import Dancer from 'types/Dancer'
+import { 
+  chooseCrew,
+  chooseDancer,
+}
+from 'features/dancerCrew/dancerCrewSlice'
+import { 
+  crew, 
+  crewNames,
+  dancer,
+  dancerNames,
+} from 'features/dancerCrew/dancerCrewSlice'
 
 const { Header, Content, Sider } = Layout
 
 const Main = () => {
-  const [crew, setCrew] = useState<Crew>(data.crews.find((crew) => crew.name.eng === data.key))
-  const [crewKey, setCrewKey] = useState<string>(data.key)
+  const crewName = useSelector(crewNames)
+  const choosenCrew = useSelector(crew)
+  const dancerName = useSelector(dancerNames)
+  const choosenDancer = useSelector(dancer)
 
-  const [dancer, setDancer] = useState<Dancer>(crew.dancers.find((dancer) => dancer.name.eng === crew.key))
+  const dispatch = useDispatch();
 
   const onClickCrew = (e) => {
-    setCrewKey(e.key)
+    dispatch(chooseCrew(e.key))
   }
 
   const onClickDancer = (e) => {
-    setCrew(produce(crew, draft => {
-      draft.key = e.key
-    }))
+    dispatch(chooseDancer(e.key))
   }
-
-  useEffect(() => {
-    setCrew(data.crews.find((crew) => crew.name.eng === crewKey))
-  }, [crewKey])
-
-  useEffect(() => {
-    setDancer(crew.dancers.find((dancer) => dancer.name.eng === crew.key))
-  }, [crew.key])
-
   return (
     <Layout>
       <Header>
-        <Menu theme="dark" mode="horizontal" onClick={onClickCrew} selectedKeys={[crewKey]}>
+        <Menu theme="dark" mode="horizontal" onClick={onClickCrew} selectedKeys={[choosenCrew.name.eng]}>
           {
-            data.crews.map((crew) => (
+            crewName.map((crew) => (
               <Menu.Item key={crew.name.eng}>{crew.name.eng}</Menu.Item>
             ))
           }
@@ -47,9 +45,9 @@ const Main = () => {
       </Header>
       <Layout hasSider>
         <Sider style={{ background: "#fff" }}>
-          <Menu mode="inline" onClick={onClickDancer} selectedKeys={[crew.key]}>
+          <Menu mode="inline" onClick={onClickDancer} selectedKeys={[choosenDancer.name.eng]}>
             {
-              crew.dancers.map((dancer) => (
+              dancerName.map((dancer) => (
                 <Menu.Item key={dancer.name.eng}>{dancer.name.eng}</Menu.Item>
               ))
             }
@@ -59,16 +57,16 @@ const Main = () => {
           <Layout style={{ display: 'flex', flexDirection: 'column', padding: '24px', margin: 0, background: "#fff" }}>
             <Content>
               <Image 
-                src={dancer.image} 
-                alt={`${dancer.name.eng}'s photo`} 
-                width={dancer.image.width / 2}
-                height={dancer.image.height / 2} 
+                src={selectedDancer.image} 
+                alt={`${selectedDancer.name.eng}'s photo`} 
+                width={selectedDancer.image.width / 2}
+                height={selectedDancer.image.height / 2} 
               />
               <Descriptions title="Dancer Info" style={{ margin: 'auto 0 0 auto' }} column={1}>
                 <Descriptions.Item label="Dancer Name (kor/eng)">{dancer.name.kor} / {dancer.name.eng}</Descriptions.Item>
-                <Descriptions.Item label="Leader">{dancer.isLeader ? '리더' : '-'}</Descriptions.Item>
-                <Descriptions.Item label="Age">{moment(dancer.birth).format('YYYY-MM-DD')} / {moment().diff(dancer.birth.toString(), 'years')}</Descriptions.Item>
-                <Descriptions.Item label="Descriptions">{dancer.description}</Descriptions.Item>
+                <Descriptions.Item label="Leader">{selectedDancer.isLeader ? '리더' : '-'}</Descriptions.Item>
+                <Descriptions.Item label="Age">{moment(selectedDancer.birth).format('YYYY-MM-DD')} / {moment().diff(dancer.birth.toString(), 'years')}</Descriptions.Item>
+                <Descriptions.Item label="Descriptions">{selectedDancer.description}</Descriptions.Item>
               </Descriptions>
             </Content>
           </Layout>
