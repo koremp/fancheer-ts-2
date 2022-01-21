@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import reducer from 'features/dancerCrew/dancerCrewSlice'
 
-export const store = configureStore({
+export default const store = configureStore({
   reducer,
   devTools: process.env.NODE_ENV !== "production"
 })
