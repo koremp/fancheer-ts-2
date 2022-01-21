@@ -1,5 +1,7 @@
-import { Global } from '@emotion/react'
+import { Provider } from 'react-redux'
 import Head from 'next/head'
+
+import { store } from 'reducers'
 
 import 'antd/dist/antd.css'
 
@@ -7,7 +9,7 @@ import '../styles.css'
 
 const App = ({ Component, pageProps }) => {
   return (
-    <>
+    <Provider store={store} >
       <Head>
         <meta
           name="viewport"
@@ -20,7 +22,7 @@ const App = ({ Component, pageProps }) => {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Component {...pageProps} />
-    </>
+    </Provider>
   )
 }
 
