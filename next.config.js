@@ -15,6 +15,7 @@ let config = {
             pages: path.join(__dirname, 'src', 'pages'),
             datas: path.join(__dirname, 'src', 'datas'),
             features: path.join(__dirname, 'src', 'features'),
+            reducers: path.join(__dirname, 'src', 'reducers'),
         };
         return config;
     },

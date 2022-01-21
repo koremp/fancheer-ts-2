@@ -23,6 +23,7 @@
       "pages": ["src/pages"],
       "datas": ["src/datas"],
       "features": ["src/features"],
+      "reducers": ["src/reducers"],
     },  
     "resolveJsonModule": true,
     "isolatedModules": true,
