@@ -35,7 +35,7 @@ const Main = () => {
   return (
     <Layout>
       <Header>
-        <Menu theme="dark" mode="horizontal" onClick={onClickCrew} selectedKeys={[crew.name.eng]}>
+        <Menu theme="dark" mode="horizontal" onClick={onClickCrew} selectedKeys={[choosenCrew.name.eng]}>
           {
             crewName.map(({name}) => (
               <Menu.Item key={name.eng}>{name.eng}</Menu.Item>
