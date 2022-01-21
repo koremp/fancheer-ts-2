@@ -15,7 +15,7 @@
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
       "types": ["src/types"],
       "assets": ["src/assets"],
