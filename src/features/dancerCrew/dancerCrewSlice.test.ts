@@ -12,25 +12,35 @@ describe('Dancer Crew Slice', () => {
     dancerKey: crews[0].dancers[0].name.eng,
     dancer: crews[0].dancers[0]
   }
-  
+
+  it('returns initialState', () => {
+    const state = reducer(undefined, { type: 'action' });
+
+    expect(state).toEqual(previousState);
+  })
+
   describe('Choose Crew', () => {
     it('should handle changing crew and dancer key', () => {
-      expect(reducer(previousState, chooseCrew(crews[1].name.eng))).toEqual({
+      const state = reducer({...previousState}, chooseCrew(crews[1].name.eng))
+
+      expect(state).toEqual({
         ...previousState,
         crewKey: crews[1].name.eng,
         crew: crews[1],
         dancerKey: crews[1].key,
-        dancer: crews[1].dancers[0]
+        dancer: crews[1].dancers.find((dancer) => dancer.name.eng === crews[1].key)
       })
     })  
   })
 
   describe('Choose Dancer', () => {
     it('should handle changing dancer key', () => {
-      expect(reducer(previousState, chooseDancer(crews[0].dancers[2].name.eng))).toEqual({
+      const state = reducer({...previousState}, chooseDancer(crews[0].dancers[3].name.eng))
+
+      expect(state).toEqual({
         ...previousState,
-        dancerKey: crews[0].dancers[2].name.eng,
-        dancer: crews[0].dancers[2],
+        dancerKey: crews[0].dancers[3].name.eng,
+        dancer: crews[0].dancers[3],
       })
     })  
   })
