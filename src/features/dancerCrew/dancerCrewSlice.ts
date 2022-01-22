@@ -12,30 +12,25 @@ export interface DancerCrewState {
   dancer: Dancer
 }
 
+export const initialState: DancerCrewState =  {
+  crews: data.crews,
+  crewKey: data.crews[0].name.eng,
+  crew: data.crews[0],
+  dancerKey: data.crews[0].dancers[0].name.eng,
+  dancer: data.crews[0].dancers[0],
+}
+
 const dancerCrewSlice = createSlice({
   name: 'dancerCrew',
-  initialState: {
-    crews: data.crews,
-    crewKey: data.crews[0].name.eng,
-    crew: data.crews[0],
-    dancerKey: data.crews[0].dancers[0].name.eng,
-    dancer: data.crews[0].dancers[0],
-  } as DancerCrewState, 
+  initialState,
   reducers: {
-    chooseCrew: (state, action: PayloadAction<string>) => {
-      if (state.crewKey === action.payload) {
-        return
-      }
-    
+    chooseCrew: (state, action: PayloadAction<string>) => {    
       state.crewKey = action.payload
       state.crew = state.crews.find((crew) => crew.name.eng === action.payload)
       state.dancerKey= state.crew.key
       state.dancer = state.crew.dancers.find((dancer) => dancer.name.eng === state.dancerKey)
     },
     chooseDancer: (state, action: PayloadAction<string>) => {
-      if (state.dancerKey === action.payload) {
-        return
-      }
       state.dancerKey = action.payload
       state.dancer = state.crew.dancers.find((dancer) => dancer.name.eng === action.payload)
     }
