@@ -20,7 +20,10 @@ const DancerContent = () => {
       />
       <Descriptions title="Dancer Info" style={{ margin: 'auto 0 0 auto' }} column={1}>
         <Descriptions.Item label="Dancer Name (kor/eng)">{choosenDancer.name.kor} / {choosenDancer.name.eng}</Descriptions.Item>
-        <Descriptions.Item label="Leader">{choosenDancer.isLeader ? '리더' : '-'}</Descriptions.Item>
+        {
+          choosenDancer.isLeader &&
+            <Descriptions.Item label="Leader">리더</Descriptions.Item>
+        }
         <Descriptions.Item label="Age">{moment(choosenDancer.birth).format('YYYY-MM-DD')} / {moment().diff(choosenDancer.birth.toString(), 'years')}</Descriptions.Item>
         <Descriptions.Item label="Descriptions">{choosenDancer.description}</Descriptions.Item>
       </Descriptions>
