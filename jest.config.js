@@ -1,4 +1,5 @@
 module.exports = {
+  preset: 'ts-jest',
   testEnvironment: 'jsdom',
   collectCoverageFrom: [
     '**/*.{js,jsx,ts,tsx}',
@@ -25,11 +26,13 @@ module.exports = {
 
     // Handle module aliases
     '^src/(.*)$': '<rootDir>/src/$1',
-    '^pages/(.*)$': '<rootDir>/src/pages/$1',
     '^types/(.*)$': '<rootDir>/src/types/$1',
-    // '^assets/(.*)$': '<rootDir>/src/assets/$1/',
-    // '^components/(.*)$': '<rootDir>/src/components/$1',
-    '^datas/(.*)$': '<rootDir>/src/datas/$1',
+    '^assets/(.*)$': '<rootDir>/src/assets/$1',
+    '^components/(.*)$': '<rootDir>/src/components/$1',
+    '^pages/(.*)$': '<rootDir>/src/pages/$1',
+    '^datas/(.*)$': '<rootDir>/src/datas/$1/',
+    '^features/(.*)$': '<rootDir>/src/features/$1',
+    '^reducers/(.*)$': '<rootDir>/src/reducers/$1',
   },
   setupFilesAfterEnv: [
     '<rootDir>/jest.setup.ts',
