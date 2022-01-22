@@ -29,13 +29,13 @@ const dancerCrewSlice = createSlice({
     
       state.crewKey = action.payload
       state.crew = state.crews.find((crew) => crew.name.eng === action.payload)
+      state.dancerKey= state.crew.key
+      state.dancer = state.crew.dancers.find((dancer) => dancer.name.eng === state.dancerKey)
     },
     chooseDancer: (state, action: PayloadAction<string>) => {
       if (state.dancerKey === action.payload) {
         return
       }
-
-      state.crew.key = action.payload
       state.dancerKey = action.payload
       state.dancer = state.crew.dancers.find((dancer) => dancer.name.eng === action.payload)
     }
