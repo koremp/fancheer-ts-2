@@ -1,7 +1,7 @@
 import { Provider } from 'react-redux'
 import Head from 'next/head'
 
-import store from 'reducers/root'
+import store from 'features/store'
 
 import 'antd/dist/antd.css'
 
