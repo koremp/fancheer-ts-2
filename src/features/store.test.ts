@@ -1,15 +1,11 @@
-import reducer, { chooseCrew, chooseDancer, initialState, DancerCrewState } from './dancerCrew/dancerCrewSlice'
+import { configureStore } from '@reduxjs/toolkit'
 
-import data from 'datas/crews'
+import reducer from 'features/dancerCrew/dancerCrewSlice'
 
-const { crews } = data
+import store from './store'
 
-describe('reducer', () => {
-  context('when previous state is undefined', () => {
-    it('returns initialState', () => {
-      const state = reducer(undefined, { type: 'action' });
+test('store', () => {
+  const newStore = configureStore({ reducer })
 
-      expect(state).toEqual(initialState);
-    })
-  })
+  expect(newStore).toStrictEqual(store)
 })
