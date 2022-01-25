@@ -60,6 +60,7 @@ module.exports = {
     'config.js',
     'coverage',
 
+    '/features/store.ts',
     '/types/',
     '_document.tsx',
     '_app.tsx',
@@ -79,6 +80,7 @@ module.exports = {
     'coverage',
     '/stories/',
     
+    '/features/store.ts',
     '/types/',
     '_document.tsx',
     '_app.tsx',
