@@ -22,22 +22,7 @@ Create Next App 없이 TypeScript로 gh-pages로 배포하기
 * TypeScript, React.js, Next.js, Ant-Design, GitHub Actions, gh-pages, Jest, etc
 * Test Coverage 100%
 
-### 이슈들
-
-#### 댄서들 정보
-
-크롤링하지 못하고, 직접 수기로 추가했다.
-
-#### 이미지 이슈
-
-#### Next Config Js - Path Alias 이슈
-
-VS Code에선 path 를 못잡음 그래서 타입 자동완성이 안됨
-tsconfig.json 에서 Path Alias와 Next Config 에서 Path Alias를 설정해주니 설정 문제가 해결되었다.
-
-의외로 시간이 많이 걸렸다. 문제의 갈피를 찾지 못하니까 직접 노가다로 이미지 파일들의 url들을 변경하고 파일도 이동하고 변경하고 그런 의미없는 삽질들을 했다.
-
-#### 참고한 레포 및 설명
+## 참고한 레포 및 설명
 
 * https://github.com/NullFull/wonderful-laws
 * https://github.com/sex-request/frontend/
