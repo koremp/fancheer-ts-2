@@ -14,9 +14,6 @@ Create Next App 없이 TypeScript로 gh-pages로 배포하기
 ## 소개
 
 * 2022.01 ~ 2022.01
-* 링크
-  * https://github.com/koremp/fancheer-ts-2
-  * https://koremp.github.io/fancheer-ts-2/
 * 스트릿 우먼 파이터의 팬페이지
 * 개인 개발
 * TypeScript, React.js, Next.js, Ant-Design, GitHub Actions, gh-pages, Jest, etc
