@@ -1,3 +1,5 @@
+import type { StaticImageData } from "next/image";
+
 import Dancer from 'types/Dancer'
 import Name from 'types/Name'
 
