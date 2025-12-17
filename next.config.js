@@ -1,7 +1,7 @@
 const path = require('path')
 
 const isProduction = process.env.NODE_ENV === 'production';
-
+const repo = "fancheer-ts-2";
 
 let config = {
     webpack: (config) => {
@@ -19,11 +19,12 @@ let config = {
         };
         return config;
     },
+
+    basePath: isProduction ? `/${repo}` : "",
+    assetPrefix: isProduction ? `/${repo}/` : "",
     images: {
         unoptimized: true,
-        path: isProduction ? '' : 'http://localhost:3000',
     },
-    assetPrefix: isProduction ? 'https://koremp.github.io/fancheer-ts-2' : '',
 }
 
 

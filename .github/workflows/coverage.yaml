@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   coverage:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     strategy:
       matrix:
@@ -18,4 +18,3 @@ jobs:
           cache: yarn
       - run: yarn install
       - run: yarn test:coverage
-        
