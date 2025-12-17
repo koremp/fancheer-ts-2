@@ -8,7 +8,7 @@
 
 ## Tech Stacks
 
-* TypeScript, React.js, Next.js, Ant-Design, GitHub Actions, gh-pages, Jest, etc
+* TypeScript, React.js, Next.js, Redux, Ant-Design, GitHub Actions, gh-pages, Jest, yarn
 
 ## Setup & Usage
 
@@ -17,8 +17,8 @@
 git clone https://github.com/koremp/fancheer-ts-2
 
 # install JavaScript dependencies
-npm install
+yarn install
 
 # run dev server
-npm run dev
+yarn dev
 ```
